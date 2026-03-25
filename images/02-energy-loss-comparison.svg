@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 280">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .title { font-size: 16px; font-weight: 600; fill: #1a1a1a; }
+    .subtitle { font-size: 11px; fill: #666; }
+    .row-label { font-size: 13px; fill: #333; font-weight: 500; }
+    .pct-label { font-size: 13px; font-weight: 700; }
+    .axis-label { font-size: 10px; fill: #999; }
+    .note { font-size: 10px; fill: #888; }
+  </style>
+
+  <!-- Title -->
+  <text x="310" y="28" text-anchor="middle" class="title">Energy Delivered per Unit Harvested</text>
+  <text x="310" y="46" text-anchor="middle" class="subtitle">Comparison of energy transport pathways</text>
+
+  <!-- Axis labels -->
+  <text x="145" y="72" class="axis-label">0%</text>
+  <text x="365" y="72" class="axis-label">50%</text>
+  <text x="580" y="72" class="axis-label">100%</text>
+  <line x1="145" y1="76" x2="585" y2="76" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- 50% tick -->
+  <line x1="365" y1="76" x2="365" y2="220" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Row 1: Diesel -->
+  <text x="8" y="108" class="row-label">Diesel</text>
+  <text x="8" y="122" class="note">generation</text>
+  <!-- Delivered (42%) -->
+  <rect x="145" y="92" width="184.8" height="36" rx="3" fill="#d94f30" opacity="0.85"/>
+  <text x="237" y="115" text-anchor="middle" class="pct-label" fill="white">42%</text>
+  <!-- Lost (58%) -->
+  <rect x="329.8" y="92" width="255.2" height="36" rx="3" fill="#e0d0c8"/>
+  <text x="457" y="115" text-anchor="middle" class="pct-label" fill="#a08070">58% lost</text>
+
+  <!-- Row 2: Battery Ship -->
+  <text x="8" y="168" class="row-label">Battery</text>
+  <text x="8" y="182" class="note">ship</text>
+  <!-- Delivered (82%) -->
+  <rect x="145" y="152" width="360.8" height="36" rx="3" fill="#1a9988" opacity="0.85"/>
+  <text x="325" y="175" text-anchor="middle" class="pct-label" fill="white">82%</text>
+  <!-- Lost (18%) -->
+  <rect x="505.8" y="152" width="79.2" height="36" rx="3" fill="#c8e0dc"/>
+  <text x="545" y="175" text-anchor="middle" class="pct-label" fill="#4a9a90" font-size="11">18%</text>
+
+  <!-- Row 3: Submarine Cable -->
+  <text x="8" y="228" class="row-label">Submarine</text>
+  <text x="8" y="242" class="note">cable</text>
+  <!-- Delivered (88%) -->
+  <rect x="145" y="212" width="387.2" height="36" rx="3" fill="#4a90d9" opacity="0.85"/>
+  <text x="338" y="235" text-anchor="middle" class="pct-label" fill="white">88%</text>
+  <!-- Lost (12%) -->
+  <rect x="532.2" y="212" width="52.8" height="36" rx="3" fill="#c8d8e8"/>
+  <text x="558" y="235" text-anchor="middle" class="pct-label" fill="#5a8ab0" font-size="11">12%</text>
+
+  <!-- Legend -->
+  <rect x="145" y="262" width="12" height="12" rx="2" fill="#666"/>
+  <text x="162" y="273" class="note">Delivered to grid</text>
+  <rect x="290" y="262" width="12" height="12" rx="2" fill="#e0d0c8"/>
+  <text x="307" y="273" class="note">Lost (heat, conversion, transport)</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .title { font-size: 16px; font-weight: 600; fill: #1a1a1a; }
+    .subtitle { font-size: 11px; fill: #666; }
+    .center-pct { font-size: 28px; font-weight: 700; fill: #3d3d3d; }
+    .center-label { font-size: 12px; fill: #666; }
+    .legend-text { font-size: 12px; fill: #333; }
+    .legend-pct { font-size: 12px; font-weight: 600; fill: #333; }
+  </style>
+
+  <!-- Title -->
+  <text x="310" y="28" text-anchor="middle" class="title">Indonesia's Electricity Generation (2023)</text>
+  <text x="310" y="46" text-anchor="middle" class="subtitle">383 TWh total -- 82% from fossil fuels</text>
+
+  <!-- Donut chart centered at 200, 195 -->
+  <g transform="rotate(-90, 200, 195)">
+    <!-- Coal 64% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#3d3d3d" stroke-width="58"
+      stroke-dasharray="421.98 237.76" stroke-dashoffset="0"/>
+    <!-- Gas 16% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#757575" stroke-width="58"
+      stroke-dasharray="105.50 554.25" stroke-dashoffset="-421.98"/>
+    <!-- Oil 2% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#a0887a" stroke-width="58"
+      stroke-dasharray="13.19 646.56" stroke-dashoffset="-527.47"/>
+    <!-- Hydro 10% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#4a90d9" stroke-width="58"
+      stroke-dasharray="65.97 593.78" stroke-dashoffset="-540.66"/>
+    <!-- Geothermal 4.5% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#d94f30" stroke-width="58"
+      stroke-dasharray="29.69 630.06" stroke-dashoffset="-606.64"/>
+    <!-- Biomass 2.5% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#7cb342" stroke-width="58"
+      stroke-dasharray="16.49 643.25" stroke-dashoffset="-636.33"/>
+    <!-- PV + Wind 1% -->
+    <circle cx="200" cy="195" r="105" fill="none" stroke="#f9a825" stroke-width="58"
+      stroke-dasharray="6.60 653.15" stroke-dashoffset="-652.82"/>
+  </g>
+
+  <!-- Center text -->
+  <text x="200" y="190" text-anchor="middle" class="center-pct">82%</text>
+  <text x="200" y="208" text-anchor="middle" class="center-label">fossil fuels</text>
+
+  <!-- Legend -->
+  <g transform="translate(370, 75)">
+    <!-- Fossil header -->
+    <text x="0" y="0" class="legend-text" font-weight="600" fill="#555">Fossil Fuels</text>
+    <rect x="0" y="12" width="16" height="16" rx="2" fill="#3d3d3d"/>
+    <text x="24" y="24" class="legend-text">Coal</text>
+    <text x="200" y="24" text-anchor="end" class="legend-pct">64%</text>
+    <rect x="0" y="36" width="16" height="16" rx="2" fill="#757575"/>
+    <text x="24" y="48" class="legend-text">Natural Gas</text>
+    <text x="200" y="48" text-anchor="end" class="legend-pct">16%</text>
+    <rect x="0" y="60" width="16" height="16" rx="2" fill="#a0887a"/>
+    <text x="24" y="72" class="legend-text">Oil</text>
+    <text x="200" y="72" text-anchor="end" class="legend-pct">2%</text>
+
+    <!-- Divider -->
+    <line x1="0" y1="90" x2="200" y2="90" stroke="#ddd" stroke-width="1"/>
+
+    <!-- Renewable header -->
+    <text x="0" y="108" class="legend-text" font-weight="600" fill="#555">Renewables</text>
+    <rect x="0" y="120" width="16" height="16" rx="2" fill="#4a90d9"/>
+    <text x="24" y="132" class="legend-text">Hydro</text>
+    <text x="200" y="132" text-anchor="end" class="legend-pct">10%</text>
+    <rect x="0" y="144" width="16" height="16" rx="2" fill="#d94f30"/>
+    <text x="24" y="156" class="legend-text">Geothermal</text>
+    <text x="200" y="156" text-anchor="end" class="legend-pct">4.5%</text>
+    <rect x="0" y="168" width="16" height="16" rx="2" fill="#7cb342"/>
+    <text x="24" y="180" class="legend-text">Biomass</text>
+    <text x="200" y="180" text-anchor="end" class="legend-pct">2.5%</text>
+    <rect x="0" y="192" width="16" height="16" rx="2" fill="#f9a825"/>
+    <text x="24" y="204" class="legend-text">PV + Wind</text>
+    <text x="200" y="204" text-anchor="end" class="legend-pct">&lt;1%</text>
+  </g>
+
+  <!-- Source -->
+  <text x="310" y="332" text-anchor="middle" class="subtitle">Source: IEA / PLN 2023 data</text>
+</svg>

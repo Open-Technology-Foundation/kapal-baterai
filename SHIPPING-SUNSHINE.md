@@ -15,6 +15,8 @@ In practice, it burns coal.
 
 In 2023, 82 per cent of Indonesia's 383 TWh of electricity generation came from fossil fuels. Coal alone accounted for 64 per cent. Natural gas, 16 per cent. Oil, 2 per cent. PV and wind together -- on the equator, in a country with one of the best sunshine endowments on Earth -- contributed less than 1 per cent.
 
+![Indonesia's electricity generation mix, 2023](images/01-energy-generation-mix.svg)
+
 Indonesia spent IDR 713.5 trillion on energy subsidies in 2024. Nearly ninety per cent of that went to fossil fuels. PLN operates about 4,000 diesel power plants with a combined capacity of 2.6 gigawatts, most of them grinding away on remote islands where the cost of generation exceeds $300 per megawatt-hour -- more than four times the average tariff consumers pay. The government covers the difference. In 2025, the electricity subsidy alone ran to IDR 83 trillion. That is roughly $5.1 billion.
 
 Meanwhile, the country imported 17.58 million tonnes of crude oil in 2025 at a cost of $9 billion. The oil-and-gas trade balance stayed stubbornly in deficit -- around $1.5 billion per month. Indonesia produces about half the oil it consumes. Coal is abundant domestically -- the country holds the world's seventh-largest reserves and was the world's largest coal exporter by weight in 2024 at 615 million short tons -- but coal-fired generation locks in carbon emissions for decades and faces growing international pressure. In 2025, coal production and exports declined for the first time in five years as Chinese and Indian demand weakened.
@@ -35,6 +37,8 @@ This should not sound radical. The global economy already ships energy by sea. C
 
 That 18 per cent compares well with the 58 per cent loss inherent in diesel generation, and the 11-12 per cent loss in a long-distance submarine power cable. Per unit of sunshine harvested in the Pilbara, a battery ship delivers roughly twice the useful electricity of the diesel pathway.
 
+![Energy delivered per unit harvested -- comparing transport pathways](images/02-energy-loss-comparison.svg)
+
 But a battery ship is only as valuable as the clean energy it carries. And before looking abroad for that energy, Indonesia should consider what it already possesses -- and barely touches.
 
 ---
@@ -48,6 +52,8 @@ Let the numbers speak. Of the nation's 100.6 GW of installed electricity capacit
 Indonesia sits on the Pacific Ring of Fire and holds about 28.5 GW of geothermal potential -- roughly 40 per cent of the world's total. No other nation comes close. Yet as of 2025, only 2.6 GW is installed. Indonesia is already the world's highest geothermal electricity producer -- 17 TWh in 2023, almost 19 per cent of global geothermal generation -- and yet this amounts to barely 4.4 per cent of its own electricity output. The government's target of adding 5.2 GW is welcome but modest given what lies untapped.
 
 Why does this matter? Because geothermal is *baseload*. It generates electricity 24 hours a day, 365 days a year, with capacity factors routinely exceeding 90 per cent. No weather dependency. No storage needed. Negligible carbon emissions. A geothermal plant on Flores or Halmahera runs at midnight exactly as it runs at noon. In an energy system that will increasingly depend on intermittent PV and wind, geothermal is the bedrock -- the steady foundation upon which everything else can be built.
+
+![Indonesia's geothermal potential vs installed capacity](images/03-geothermal-potential.svg)
 
 Every gigawatt of geothermal capacity that Indonesia fails to develop is a gigawatt that must be supplied by imported diesel, imported coal, or imported sunshine. The resource is indigenous, inexhaustible, and proven. The barriers are regulatory complexity, exploration risk, and -- let us be honest -- a historical preference within PLN for the familiar simplicity of burning things.
 
@@ -100,6 +106,8 @@ The picture changes. Multiple manufacturers -- including China's CATL and FAW --
 Crucially, batteries designed specifically for energy transport -- stripped of the standalone inverters, weatherproof enclosures, and individual thermal management systems that grid-installation batteries require -- could achieve system-level densities of about 375 Wh/kg. In a purpose-built battery ship, the binding constraint becomes weight, not volume. Our reference vessel could carry about 18 GWh, using only 72 per cent of its hold volume while filling 100 per cent of its cargo weight capacity.
 
 The ratio drops from 217:1 to about 14.5:1. Still unfavourable on a per-shipment basis, but the batteries are rechargeable. Over a 20-year service life with 26 round trips per year, each ship delivers about 8,600 GWh. The diesel it replaces would have required about 7.2 million tonnes of fuel.
+
+![Battery shipments needed to match one diesel cargo -- current vs 2030 technology](images/04-battery-density-ratio.svg)
 
 ---
 
@@ -167,6 +175,8 @@ Imagine a network:
 
 This is the hub-and-spoke model, identical in architecture to the one used by airlines and postal services -- and for the same reason. It is prohibitively expensive to connect every small point directly (a runway on every island, a cable to every island), but it is efficient to consolidate at hubs and distribute from there.
 
+![Hub-and-spoke energy distribution network](images/05-hub-and-spoke.svg)
+
 The shipping infrastructure already exists. Indonesia has one of the world's largest inter-island fleets. The routes are established. The ports, however modest, are in place. The adaptation required is to add charging and discharging facilities at hub and destination ports -- not to build an entirely new transport network.
 
 ---
@@ -204,6 +214,8 @@ Compare this to the status quo:
 | **Fuel import dependency** | 100% imported diesel | 0% |
 | **Fuel price exposure** | Full global oil volatility | None (sunshine is free) |
 
+![Cost of electricity on remote islands -- diesel vs battery ship](images/08-cost-comparison.svg)
+
 At these numbers, battery ships are not merely competitive -- they are superior by a factor of two to four. The subsidy burden drops by 50-80 per cent per island served.
 
 The fiscal implications are significant. If battery ships could serve even half of PLN's 2.6 GW of remote diesel capacity, at an average subsidy saving of $200/MWh, the annual relief would be in the range of **$2-3 billion** -- a significant fraction of the total electricity subsidy. That is real money, redirected from buying imported diesel to building domestic renewable capacity.
@@ -221,6 +233,8 @@ Indonesia's push toward sun-powered energy -- rooftop PV on Java, utility-scale 
 This is not theoretical. It is the primary reason PLN, despite abundant sunshine, continues to plan new coal and gas capacity. Variable renewables without storage are, from a grid operator's perspective, unreliable. The grid needs dispatchable power -- generation that can be called upon at will, day or night. Diesel and coal provide this. Sunshine alone does not.
 
 Grid-scale battery storage solves the problem, but in Indonesia it is "almost nonexistent." Building permanent battery installations at every PV farm and substation would require enormous capital, long permitting timelines, and land that may not be available in dense urban areas.
+
+![The duck curve -- and how battery ships solve it](images/06-duck-curve.svg)
 
 So here is the conceptual leap.
 
@@ -245,6 +259,8 @@ This is where the threads of this paper converge. The ideal Indonesian energy ar
 - **Battery ships** absorb daytime surplus, discharge during evening peaks on major-island grids, and transport stored energy to remote islands that cannot generate their own.
 
 In this architecture, the battery ship is not an exotic novelty. It is the **connective tissue** -- the mobile storage layer that makes the entire renewable system work across a fragmented archipelago where permanent grid infrastructure cannot reach everywhere.
+
+![The geothermal-sunshine-battery triad -- three sources covering 24-hour demand](images/07-energy-triad.svg)
 
 Geothermal runs at midnight. Sunshine runs at noon. Battery ships bridge the gap, and carry the surplus to every island in between.
 

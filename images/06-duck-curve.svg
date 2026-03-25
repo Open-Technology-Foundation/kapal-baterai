@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360">
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .title { font-size: 16px; font-weight: 600; fill: #1a1a1a; }
+    .subtitle { font-size: 11px; fill: #666; }
+    .axis-label { font-size: 10px; fill: #999; }
+    .label { font-size: 12px; font-weight: 500; }
+    .note { font-size: 10px; fill: #888; }
+    .legend-text { font-size: 11px; fill: #333; }
+  </style>
+
+  <!-- Title -->
+  <text x="310" y="28" text-anchor="middle" class="title">The Duck Curve -- and How Battery Ships Solve It</text>
+  <text x="310" y="46" text-anchor="middle" class="subtitle">Typical daily electricity profile with high PV penetration</text>
+
+  <g transform="translate(70, 60)">
+    <!-- Chart area: 500w x 240h -->
+    <!-- Y-axis -->
+    <line x1="0" y1="0" x2="0" y2="240" stroke="#ccc" stroke-width="1"/>
+    <!-- X-axis -->
+    <line x1="0" y1="240" x2="500" y2="240" stroke="#ccc" stroke-width="1"/>
+
+    <!-- Y-axis label -->
+    <text x="-15" y="120" text-anchor="middle" transform="rotate(-90, -15, 120)" class="axis-label">Power (GW)</text>
+
+    <!-- X-axis time labels -->
+    <text x="0" y="256" text-anchor="middle" class="axis-label">00:00</text>
+    <text x="83" y="256" text-anchor="middle" class="axis-label">04:00</text>
+    <text x="167" y="256" text-anchor="middle" class="axis-label">08:00</text>
+    <text x="250" y="256" text-anchor="middle" class="axis-label">12:00</text>
+    <text x="333" y="256" text-anchor="middle" class="axis-label">16:00</text>
+    <text x="417" y="256" text-anchor="middle" class="axis-label">20:00</text>
+    <text x="500" y="256" text-anchor="middle" class="axis-label">24:00</text>
+
+    <!-- Grid lines -->
+    <line x1="0" y1="60" x2="500" y2="60" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="0" y1="120" x2="500" y2="120" stroke="#f0f0f0" stroke-width="1"/>
+    <line x1="0" y1="180" x2="500" y2="180" stroke="#f0f0f0" stroke-width="1"/>
+
+    <!-- Night/day background -->
+    <rect x="0" y="0" width="125" height="240" fill="#1a1a3a" opacity="0.04"/>
+    <rect x="375" y="0" width="125" height="240" fill="#1a1a3a" opacity="0.04"/>
+    <text x="62" y="14" text-anchor="middle" class="note" fill="#aaa">night</text>
+    <text x="250" y="14" text-anchor="middle" class="note" fill="#d4a017">daylight</text>
+    <text x="438" y="14" text-anchor="middle" class="note" fill="#aaa">evening</text>
+
+    <!-- PV generation curve (bell shape, peak at noon) -->
+    <path d="M 0,240 C 80,240 120,240 145,230 C 170,215 190,140 210,80 C 230,40 240,25 250,20 C 260,25 270,40 290,80 C 310,140 330,215 355,230 C 380,240 420,240 500,240 Z"
+      fill="#f9a825" opacity="0.25" stroke="none"/>
+    <path d="M 0,240 C 80,240 120,240 145,230 C 170,215 190,140 210,80 C 230,40 240,25 250,20 C 260,25 270,40 290,80 C 310,140 330,215 355,230 C 380,240 420,240 500,240"
+      fill="none" stroke="#f9a825" stroke-width="2.5"/>
+
+    <!-- Demand curve (morning rise, midday dip with PV, evening peak) -->
+    <path d="M 0,160 C 40,165 60,170 83,165 C 120,145 145,120 167,100 C 190,90 210,95 250,105 C 290,95 310,85 333,75 C 360,65 380,55 417,50 C 440,55 460,70 480,100 C 490,120 500,145 500,155"
+      fill="none" stroke="#2c3e50" stroke-width="2.5" stroke-dasharray="none"/>
+
+    <!-- Surplus zone (midday: PV above demand) -->
+    <path d="M 170,108 C 190,90 210,55 230,35 C 240,28 250,25 260,30 C 280,50 300,85 320,100"
+      fill="#1a9988" opacity="0.15" stroke="none"/>
+
+    <!-- Deficit zone (evening: demand above PV) -->
+    <path d="M 350,85 C 370,70 390,58 410,52 C 430,55 445,65 460,85"
+      fill="#d94f30" opacity="0.15" stroke="none"/>
+
+    <!-- Battery ship annotations -->
+    <!-- Absorb arrow (midday) -->
+    <g transform="translate(230, 50)">
+      <polygon points="0,0 8,-12 16,0" fill="#1a9988"/>
+      <text x="8" y="-16" text-anchor="middle" class="note" fill="#1a9988" font-weight="600">CHARGE</text>
+      <text x="8" y="-6" text-anchor="middle" class="note" fill="#1a9988">ship absorbs</text>
+    </g>
+
+    <!-- Discharge arrow (evening) -->
+    <g transform="translate(395, 35)">
+      <polygon points="0,12 8,0 16,12" fill="#1a9988"/>
+      <text x="8" y="26" text-anchor="middle" class="note" fill="#1a9988" font-weight="600">DISCHARGE</text>
+      <text x="8" y="36" text-anchor="middle" class="note" fill="#1a9988">ship supplies</text>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(120, 330)">
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#f9a825" stroke-width="3"/>
+    <text x="28" y="4" class="legend-text">PV generation</text>
+    <line x1="140" y1="0" x2="160" y2="0" stroke="#2c3e50" stroke-width="2.5"/>
+    <text x="168" y="4" class="legend-text">Grid demand</text>
+    <rect x="290" y="-5" width="14" height="10" rx="2" fill="#1a9988" opacity="0.3"/>
+    <text x="310" y="4" class="legend-text">Battery ship role</text>
+  </g>
+</svg>
