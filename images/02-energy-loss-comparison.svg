@@ -24,30 +24,30 @@
   <!-- Row 1: Diesel -->
   <text x="8" y="108" class="row-label">Diesel</text>
   <text x="8" y="122" class="note">generation</text>
-  <!-- Delivered (42%) -->
+  <!-- Delivered (42%) = 440 * 0.42 = 184.8 -->
   <rect x="145" y="92" width="184.8" height="36" rx="3" fill="#d94f30" opacity="0.85"/>
   <text x="237" y="115" text-anchor="middle" class="pct-label" fill="white">42%</text>
-  <!-- Lost (58%) -->
+  <!-- Lost (58%) = 440 * 0.58 = 255.2 -->
   <rect x="329.8" y="92" width="255.2" height="36" rx="3" fill="#e0d0c8"/>
   <text x="457" y="115" text-anchor="middle" class="pct-label" fill="#a08070">58% lost</text>
 
   <!-- Row 2: Battery Ship -->
   <text x="8" y="168" class="row-label">Battery</text>
   <text x="8" y="182" class="note">ship</text>
-  <!-- Delivered (82%) -->
-  <rect x="145" y="152" width="360.8" height="36" rx="3" fill="#1a9988" opacity="0.85"/>
-  <text x="325" y="175" text-anchor="middle" class="pct-label" fill="white">82%</text>
-  <!-- Lost (18%) -->
-  <rect x="505.8" y="152" width="79.2" height="36" rx="3" fill="#c8e0dc"/>
-  <text x="545" y="175" text-anchor="middle" class="pct-label" fill="#4a9a90" font-size="11">18%</text>
+  <!-- Delivered (84%) = 440 * 0.84 = 369.6 -->
+  <rect x="145" y="152" width="369.6" height="36" rx="3" fill="#1a9988" opacity="0.85"/>
+  <text x="330" y="175" text-anchor="middle" class="pct-label" fill="white">84%</text>
+  <!-- Lost (16%) = 440 * 0.16 = 70.4 -->
+  <rect x="514.6" y="152" width="70.4" height="36" rx="3" fill="#c8e0dc"/>
+  <text x="550" y="175" text-anchor="middle" class="pct-label" fill="#4a9a90" font-size="11">16%</text>
 
   <!-- Row 3: Submarine Cable -->
   <text x="8" y="228" class="row-label">Submarine</text>
   <text x="8" y="242" class="note">cable</text>
-  <!-- Delivered (88%) -->
+  <!-- Delivered (88%) = 440 * 0.88 = 387.2 -->
   <rect x="145" y="212" width="387.2" height="36" rx="3" fill="#4a90d9" opacity="0.85"/>
   <text x="338" y="235" text-anchor="middle" class="pct-label" fill="white">88%</text>
-  <!-- Lost (12%) -->
+  <!-- Lost (12%) = 440 * 0.12 = 52.8 -->
   <rect x="532.2" y="212" width="52.8" height="36" rx="3" fill="#c8d8e8"/>
   <text x="558" y="235" text-anchor="middle" class="pct-label" fill="#5a8ab0" font-size="11">12%</text>
 

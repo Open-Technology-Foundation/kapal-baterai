@@ -19,7 +19,7 @@
     <text x="120" y="0" text-anchor="middle" class="label">Current Technology (2025)</text>
     <text x="120" y="18" text-anchor="middle" class="sublabel">126 Wh/kg -- 1.1 GWh per ship</text>
 
-    <!-- Grid of ship blocks: 217 blocks in ~15 x 15 grid -->
+    <!-- Grid of ship blocks: 217 blocks in ~14 x 16 grid -->
     <g transform="translate(0, 30)">
       <!-- 14 rows of 16 = 224 blocks, show 217 filled -->
       <!-- Row by row, each block is 14x10 with 1px gap -->
@@ -39,33 +39,33 @@
   <!-- Arrow -->
   <g transform="translate(290, 165)">
     <polygon points="0,0 30,15 0,30" class="arrow"/>
-    <text x="15" y="50" text-anchor="middle" class="note" fill="#1a9988" font-weight="600">15x</text>
+    <text x="15" y="50" text-anchor="middle" class="note" fill="#1a9988" font-weight="600">17x</text>
     <text x="15" y="62" text-anchor="middle" class="note" fill="#1a9988">fewer</text>
   </g>
 
-  <!-- RIGHT: 2030 tech -->
+  <!-- RIGHT: Next-gen tech -->
   <g transform="translate(350, 70)">
-    <text x="120" y="0" text-anchor="middle" class="label">2030 Technology</text>
-    <text x="120" y="18" text-anchor="middle" class="sublabel">375 Wh/kg -- 18 GWh per ship</text>
+    <text x="120" y="0" text-anchor="middle" class="label">Next-Gen (~2030-2035)</text>
+    <text x="120" y="18" text-anchor="middle" class="sublabel">~400 Wh/kg -- 18 GWh per ship</text>
 
-    <!-- 15 blocks (14.5 rounded up) -->
+    <!-- 13 blocks (239/18 = 13.3) -->
     <g transform="translate(30, 30)" fill="#1a9988" opacity="0.85">
-      <!-- Row 1: 8 blocks -->
-      <rect x="0" y="0" width="20" height="16" rx="2"/><rect x="24" y="0" width="20" height="16" rx="2"/><rect x="48" y="0" width="20" height="16" rx="2"/><rect x="72" y="0" width="20" height="16" rx="2"/><rect x="96" y="0" width="20" height="16" rx="2"/><rect x="120" y="0" width="20" height="16" rx="2"/><rect x="144" y="0" width="20" height="16" rx="2"/><rect x="168" y="0" width="20" height="16" rx="2"/>
-      <!-- Row 2: 7 blocks (14.5 total, half block at end) -->
+      <!-- Row 1: 7 blocks -->
+      <rect x="0" y="0" width="20" height="16" rx="2"/><rect x="24" y="0" width="20" height="16" rx="2"/><rect x="48" y="0" width="20" height="16" rx="2"/><rect x="72" y="0" width="20" height="16" rx="2"/><rect x="96" y="0" width="20" height="16" rx="2"/><rect x="120" y="0" width="20" height="16" rx="2"/><rect x="144" y="0" width="20" height="16" rx="2"/>
+      <!-- Row 2: 6 blocks + partial -->
       <rect x="0" y="22" width="20" height="16" rx="2"/><rect x="24" y="22" width="20" height="16" rx="2"/><rect x="48" y="22" width="20" height="16" rx="2"/><rect x="72" y="22" width="20" height="16" rx="2"/><rect x="96" y="22" width="20" height="16" rx="2"/><rect x="120" y="22" width="20" height="16" rx="2"/>
-      <!-- Half block -->
-      <rect x="144" y="22" width="10" height="16" rx="2" opacity="0.5"/>
+      <!-- Partial block (0.3 of a shipment) -->
+      <rect x="144" y="22" width="6" height="16" rx="2" opacity="0.4"/>
     </g>
-    <text x="120" y="110" text-anchor="middle" class="big-num" fill="#1a9988">14.5</text>
+    <text x="120" y="110" text-anchor="middle" class="big-num" fill="#1a9988">~13</text>
     <text x="120" y="128" text-anchor="middle" class="sublabel">shipments needed</text>
 
     <!-- Rechargeable note -->
-    <rect x="20" y="148" width="200" height="42" rx="6" fill="#e8f5f2" stroke="#1a9988" stroke-width="1"/>
+    <rect x="10" y="148" width="220" height="42" rx="6" fill="#e8f5f2" stroke="#1a9988" stroke-width="1"/>
     <text x="120" y="166" text-anchor="middle" class="sublabel" fill="#1a9988" font-weight="600">But batteries are rechargeable</text>
-    <text x="120" y="182" text-anchor="middle" class="note" fill="#1a9988">20 years x 26 trips = 8,600 GWh per ship</text>
+    <text x="120" y="182" text-anchor="middle" class="note" fill="#1a9988">20 years x 33 trips = 10,900 GWh per ship</text>
   </g>
 
   <!-- Bottom note -->
-  <text x="310" y="340" text-anchor="middle" class="subtitle">One diesel cargo = 48,000 t MDO = 239 GWh at power-plant efficiency</text>
+  <text x="310" y="340" text-anchor="middle" class="subtitle">One diesel cargo = 48,000 t diesel = 239 GWh at power-plant efficiency</text>
 </svg>

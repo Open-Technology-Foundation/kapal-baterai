@@ -11,35 +11,36 @@
 
   <!-- Title -->
   <text x="310" y="28" text-anchor="middle" class="title">Indonesia's Electricity Generation (2023)</text>
-  <text x="310" y="46" text-anchor="middle" class="subtitle">383 TWh total -- 82% from fossil fuels</text>
+  <text x="310" y="46" text-anchor="middle" class="subtitle">383 TWh total -- 81% from fossil fuels</text>
 
   <!-- Donut chart centered at 200, 195 -->
+  <!-- Circumference = 2pi*105 = 659.73 -->
   <g transform="rotate(-90, 200, 195)">
-    <!-- Coal 64% -->
+    <!-- Coal 62% = 409.04 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#3d3d3d" stroke-width="58"
-      stroke-dasharray="421.98 237.76" stroke-dashoffset="0"/>
-    <!-- Gas 16% -->
+      stroke-dasharray="409.04 250.70" stroke-dashoffset="0"/>
+    <!-- Gas 17% = 112.16 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#757575" stroke-width="58"
-      stroke-dasharray="105.50 554.25" stroke-dashoffset="-421.98"/>
-    <!-- Oil 2% -->
+      stroke-dasharray="112.16 547.58" stroke-dashoffset="-409.04"/>
+    <!-- Oil 2% = 13.19 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#a0887a" stroke-width="58"
-      stroke-dasharray="13.19 646.56" stroke-dashoffset="-527.47"/>
-    <!-- Hydro 10% -->
+      stroke-dasharray="13.19 646.54" stroke-dashoffset="-521.20"/>
+    <!-- Hydro 7% = 46.18 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#4a90d9" stroke-width="58"
-      stroke-dasharray="65.97 593.78" stroke-dashoffset="-540.66"/>
-    <!-- Geothermal 4.5% -->
+      stroke-dasharray="46.18 613.56" stroke-dashoffset="-534.39"/>
+    <!-- Geothermal 5% = 32.99 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#d94f30" stroke-width="58"
-      stroke-dasharray="29.69 630.06" stroke-dashoffset="-606.64"/>
-    <!-- Biomass 2.5% -->
+      stroke-dasharray="32.99 626.75" stroke-dashoffset="-580.57"/>
+    <!-- Biomass 6% = 39.58 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#7cb342" stroke-width="58"
-      stroke-dasharray="16.49 643.25" stroke-dashoffset="-636.33"/>
-    <!-- PV + Wind 1% -->
+      stroke-dasharray="39.58 620.15" stroke-dashoffset="-613.56"/>
+    <!-- PV + Wind <1% = 6.60 -->
     <circle cx="200" cy="195" r="105" fill="none" stroke="#f9a825" stroke-width="58"
-      stroke-dasharray="6.60 653.15" stroke-dashoffset="-652.82"/>
+      stroke-dasharray="6.60 653.14" stroke-dashoffset="-653.14"/>
   </g>
 
   <!-- Center text -->
-  <text x="200" y="190" text-anchor="middle" class="center-pct">82%</text>
+  <text x="200" y="190" text-anchor="middle" class="center-pct">81%</text>
   <text x="200" y="208" text-anchor="middle" class="center-label">fossil fuels</text>
 
   <!-- Legend -->
@@ -48,10 +49,10 @@
     <text x="0" y="0" class="legend-text" font-weight="600" fill="#555">Fossil Fuels</text>
     <rect x="0" y="12" width="16" height="16" rx="2" fill="#3d3d3d"/>
     <text x="24" y="24" class="legend-text">Coal</text>
-    <text x="200" y="24" text-anchor="end" class="legend-pct">64%</text>
+    <text x="200" y="24" text-anchor="end" class="legend-pct">62%</text>
     <rect x="0" y="36" width="16" height="16" rx="2" fill="#757575"/>
     <text x="24" y="48" class="legend-text">Natural Gas</text>
-    <text x="200" y="48" text-anchor="end" class="legend-pct">16%</text>
+    <text x="200" y="48" text-anchor="end" class="legend-pct">17%</text>
     <rect x="0" y="60" width="16" height="16" rx="2" fill="#a0887a"/>
     <text x="24" y="72" class="legend-text">Oil</text>
     <text x="200" y="72" text-anchor="end" class="legend-pct">2%</text>
@@ -63,13 +64,13 @@
     <text x="0" y="108" class="legend-text" font-weight="600" fill="#555">Renewables</text>
     <rect x="0" y="120" width="16" height="16" rx="2" fill="#4a90d9"/>
     <text x="24" y="132" class="legend-text">Hydro</text>
-    <text x="200" y="132" text-anchor="end" class="legend-pct">10%</text>
-    <rect x="0" y="144" width="16" height="16" rx="2" fill="#d94f30"/>
-    <text x="24" y="156" class="legend-text">Geothermal</text>
-    <text x="200" y="156" text-anchor="end" class="legend-pct">4.5%</text>
-    <rect x="0" y="168" width="16" height="16" rx="2" fill="#7cb342"/>
-    <text x="24" y="180" class="legend-text">Biomass</text>
-    <text x="200" y="180" text-anchor="end" class="legend-pct">2.5%</text>
+    <text x="200" y="132" text-anchor="end" class="legend-pct">7%</text>
+    <rect x="0" y="144" width="16" height="16" rx="2" fill="#7cb342"/>
+    <text x="24" y="156" class="legend-text">Biomass</text>
+    <text x="200" y="156" text-anchor="end" class="legend-pct">6%</text>
+    <rect x="0" y="168" width="16" height="16" rx="2" fill="#d94f30"/>
+    <text x="24" y="180" class="legend-text">Geothermal</text>
+    <text x="200" y="180" text-anchor="end" class="legend-pct">5%</text>
     <rect x="0" y="192" width="16" height="16" rx="2" fill="#f9a825"/>
     <text x="24" y="204" class="legend-text">PV + Wind</text>
     <text x="200" y="204" text-anchor="end" class="legend-pct">&lt;1%</text>
