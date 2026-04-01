@@ -13,13 +13,13 @@ Indonesia sits on the equator. It receives about 1,700 kilowatt-hours of radiant
 
 In practice, it burns coal.
 
-In 2023, 82 per cent of Indonesia's 383 TWh of electricity generation came from fossil fuels. Coal alone accounted for 64 per cent. Natural gas, 16 per cent. Oil, 2 per cent. PV and wind together -- on the equator, in a country with one of the best sunshine endowments on Earth -- contributed less than 1 per cent.
+In 2023, 81 per cent of Indonesia's 383 TWh of electricity generation came from fossil fuels. Coal alone accounted for 62 per cent. Natural gas, 17 per cent. Oil, 2 per cent. PV and wind together -- on the equator, in a country with one of the best sunshine endowments on Earth -- contributed less than 1 per cent.
 
 ![Indonesia's electricity generation mix, 2023](images/01-energy-generation-mix.svg)
 
-Indonesia spent IDR 713.5 trillion on energy subsidies in 2024. Nearly ninety per cent of that went to fossil fuels. PLN operates about 4,000 diesel power plants with a combined capacity of 2.6 gigawatts, most of them grinding away on remote islands where the cost of generation exceeds $300 per megawatt-hour -- more than four times the average tariff consumers pay. The government covers the difference. In 2025, the electricity subsidy alone ran to IDR 83 trillion. That is roughly $5.1 billion.
+Indonesia spent IDR 713.5 trillion on energy subsidies in 2024. Nearly ninety per cent of that went to fossil fuels. PLN operates more than 5,200 diesel power plants -- targeted for conversion under the national De-dieselisation Programme -- with a combined capacity of 2.6 gigawatts, most of them grinding away on remote islands where the cost of generation exceeds $300 per megawatt-hour -- more than four times the average tariff consumers pay. The government covers the difference. In 2025, the electricity subsidy alone ran to IDR 83 trillion. That is roughly $5.1 billion.
 
-Meanwhile, the country imported 17.58 million tonnes of crude oil in 2025 at a cost of $9 billion. The oil-and-gas trade balance stayed stubbornly in deficit -- around $1.5 billion per month. Indonesia produces about half the oil it consumes. Coal is abundant domestically -- the country holds the world's seventh-largest reserves and was the world's largest coal exporter by weight in 2024 at 615 million short tons -- but coal-fired generation locks in carbon emissions for decades and faces growing international pressure. In 2025, coal production and exports declined for the first time in five years as Chinese and Indian demand weakened.
+Meanwhile, the country imported 17.58 million tonnes of crude oil in 2025 at a cost of $8.3 billion. The oil-and-gas trade balance stayed stubbornly in deficit -- around $1.6 billion per month. Indonesia produces about half the oil it consumes. Coal is abundant domestically -- the country holds the world's seventh-largest reserves and was the world's largest coal exporter by weight in 2024 -- but coal-fired generation locks in carbon emissions for decades and faces growing international pressure. In 2025, coal production and exports declined for the first time in five years as Chinese and Indian demand weakened.
 
 So here is the paradox: a nation awash in sunlight, sitting on world-class geothermal reserves, generating nearly two-thirds of its electricity from coal and paying billions more to burn imported diesel on its remotest islands.
 
@@ -33,9 +33,9 @@ The question is whether a novel approach -- transporting sun-generated electrici
 
 The idea is simpler than you might expect. A cargo ship is fitted with rechargeable battery packs. At a sunshine-powered port -- say, Port Hedland in Western Australia -- the batteries are charged to capacity. The ship sails to a destination city, plugs into the local electricity grid, discharges its cargo of stored energy, and returns for recharging. A fleet of such ships, cycling continuously, creates a seaborne supply line of clean electricity.
 
-This should not sound radical. The global economy already ships energy by sea. Crude oil tankers, LNG carriers, and coal bulk carriers are all, at bottom, energy transport vessels. The difference is that a tanker delivers fuel that must be burned -- with roughly 58 per cent of its energy lost as waste heat in the conversion to electricity. A battery ship delivers energy that has already been converted. The electricity flows straight into the grid. Losses run to about 18 per cent: 8 per cent in the battery's own charge-discharge cycle (round-trip efficiency of about 92 per cent), and 10 per cent consumed by the ship's propulsion during the voyage.
+This should not sound radical. The global economy already ships energy by sea. Crude oil tankers, LNG carriers, and coal bulk carriers are all, at bottom, energy transport vessels. The difference is that a tanker delivers fuel that must be burned -- with roughly 58 per cent of its energy lost as waste heat in the conversion to electricity. A battery ship delivers energy that has already been converted. The electricity flows straight into the grid. Losses run to about 16 per cent: 8 per cent in the battery's own charge-discharge cycle (round-trip efficiency of about 92 per cent), and roughly 8 per cent consumed by the ship's propulsion during the voyage.
 
-That 18 per cent compares well with the 58 per cent loss inherent in diesel generation, and the 11-12 per cent loss in a long-distance submarine power cable. Per unit of sunshine harvested in the Pilbara, a battery ship delivers roughly twice the useful electricity of the diesel pathway.
+That 16 per cent compares well with the 58 per cent loss inherent in diesel generation, and the 11-12 per cent loss in a long-distance submarine power cable. Per unit of sunshine harvested in the Pilbara, a battery ship delivers roughly twice the useful electricity of the diesel pathway.
 
 ![Energy delivered per unit harvested -- comparing transport pathways](images/02-energy-loss-comparison.svg)
 
@@ -49,7 +49,7 @@ Let the numbers speak. Of the nation's 100.6 GW of installed electricity capacit
 
 ### Geothermal: The Sleeping Giant
 
-Indonesia sits on the Pacific Ring of Fire and holds about 28.5 GW of geothermal potential -- roughly 40 per cent of the world's total. No other nation comes close. Yet as of 2025, only 2.6 GW is installed. Indonesia is already the world's highest geothermal electricity producer -- 17 TWh in 2023, almost 19 per cent of global geothermal generation -- and yet this amounts to barely 4.4 per cent of its own electricity output. The government's target of adding 5.2 GW is welcome but modest given what lies untapped.
+Indonesia sits on the Pacific Ring of Fire and holds about 28.5 GW of geothermal potential -- roughly 40 per cent of the world's total. No other nation comes close. Yet as of 2025, only 2.71 GW is installed -- up from 2.6 GW the previous year, an addition rate that remains glacial relative to the resource. Indonesia is the world's second-largest geothermal electricity producer after the United States -- 17 TWh in 2023, almost 19 per cent of global geothermal generation -- and yet this amounts to barely 4.4 per cent of its own electricity output. The government's target of adding 5.2 GW is welcome but modest given what lies untapped.
 
 Why does this matter? Because geothermal is *baseload*. It generates electricity 24 hours a day, 365 days a year, with capacity factors routinely exceeding 90 per cent. No weather dependency. No storage needed. Negligible carbon emissions. A geothermal plant on Flores or Halmahera runs at midnight exactly as it runs at noon. In an energy system that will increasingly depend on intermittent PV and wind, geothermal is the bedrock -- the steady foundation upon which everything else can be built.
 
@@ -61,7 +61,7 @@ Every gigawatt of geothermal capacity that Indonesia fails to develop is a gigaw
 
 Indonesia's total installed PV capacity reached 1.49 GW in 2025. In a nation of 280 million people. Sitting on the equator. For comparison, Australia, with one-tenth the population, has over 25 GW of rooftop PV alone. PV and wind combined generated less than 1 per cent of Indonesia's electricity in 2023, despite growth rates of 61 and 36 per cent respectively. Growth from a very small base is still a very small number.
 
-The government has announced a 100 GW PV goal and issued rooftop development quotas of 5.75 GW for PLN between 2024 and 2028. These are steps in the right direction, but the pace is inadequate. Every commercial building, every warehouse roof, every government office in Java, Bali, and Sumatra is a potential PV installation that reduces daytime grid demand, displaces fossil generation, and -- critically -- generates the surplus electricity that battery ships can store and redistribute.
+The government has announced a 100 GW PV goal -- a presidential initiative confirmed in August 2025, comprising 80 GW of distributed installations across 80,000 villages and 20 GW of utility-scale capacity. Separately, the RUPTL sets rooftop development quotas of 5.75 GW for PLN between 2024 and 2028. These are steps in the right direction, but the pace is inadequate. Every commercial building, every warehouse roof, every government office in Java, Bali, and Sumatra is a potential PV installation that reduces daytime grid demand, displaces fossil generation, and -- critically -- generates the surplus electricity that battery ships can store and redistribute.
 
 The challenge with rooftop PV, as with all sun-powered generation, is intermittency. Panels produce electricity only during daylight hours, peak at midday, and drop to zero at sunset -- precisely when evening demand surges. On a grid without storage, this creates the "duck curve": excess generation at noon, deficit in the evening. Conventional wisdom says intermittent renewables cannot exceed 20-30 per cent of grid capacity without destabilising the system.
 
@@ -69,9 +69,9 @@ Battery ships offer an unconventional answer to this conventional problem.
 
 ### Utility-Scale PV Farms
 
-Beyond rooftops, Indonesia has vast areas suitable for utility-scale PV: the drier eastern regions of Nusa Tenggara, the low-density landscapes of Kalimantan (conveniently near the new capital, IKN), and degraded lands across Sulawesi and Sumatra that are unsuitable for agriculture but ideal for photovoltaic arrays. The 2025-2034 national electricity development plan (RUPTL) allocates 37.5 GW to PV and 7.2 GW to wind as part of a 69.5 GW expansion -- on paper, 76 per cent renewable.
+Beyond rooftops, Indonesia has vast areas suitable for utility-scale PV: the drier eastern regions of Nusa Tenggara, the low-density landscapes of Kalimantan (conveniently near the new capital, IKN), and degraded lands across Sulawesi and Sumatra that are unsuitable for agriculture but ideal for photovoltaic arrays. The 2025-2034 national electricity development plan (RUPTL) allocates 42.6 GW to renewables -- PV, wind, hydro, geothermal, and biomass -- as part of a 69.5 GW expansion, with renewables accounting for 61 per cent of new capacity on paper.
 
-On paper. Because the signals are flatly contradictory. The national electricity master plan (RUKN 2024-2060) simultaneously calls for 26.8 GW of *additional* coal capacity, aiming to increase total coal-fired generation from 55.6 GW to 76.5 GW by 2031. Coal capacity is projected to rise to 61.4 GW by 2035, gas to 36 GW. The energy analyst group Ember has described the RUPTL bluntly: "Fossils first, renewables later." President Prabowo has announced a coal phase-out by 2040 -- while his government plans to build more coal plants through 2031. These contradictions are not minor inconsistencies. They reflect the power of incumbency within PLN and the coal industry, and the absence of a credible alternative for delivering reliable electricity.
+On paper. Because the signals are flatly contradictory. The national electricity master plan (RUKN 2024-2060) simultaneously calls for 26.8 GW of *additional* coal capacity, aiming to increase total coal-fired generation from 55.6 GW to 76.5 GW by 2031. The energy analyst group CREA has described the RUPTL bluntly: "Fossils first, renewables later" -- with the bulk of renewable deployment scheduled after 2030. President Prabowo has announced a coal phase-out by 2040 and revised Indonesia's net-zero target from 2060 to 2050 -- while his government plans to build more coal plants through 2031. These contradictions are not minor inconsistencies. They reflect the power of incumbency within PLN and the coal industry, and the absence of a credible alternative for delivering reliable electricity.
 
 And here is the excuse that makes it all seem reasonable: Indonesia's grid has been described as "fragmented and inadequate" for variable renewables, with storage capacity that is "almost nonexistent." PV farms without storage are of limited value. True enough. But this is the excuse that coal advocates use to justify continued fossil expansion. Break the storage bottleneck, and the excuse dissolves. This is where the battery ship concept becomes not merely a transport mechanism but a **grid infrastructure asset**.
 
@@ -83,7 +83,7 @@ Indonesia's domestic renewable development is essential. But it need not happen 
 
 The Pilbara region of Western Australia -- for those who have not had the experience of driving through it, imagine flat red earth under a relentless sky, 300 cloud-free days a year -- receives about 2,400 kWh/m² per year. Utility-scale PV farms there achieve capacity factors of 28-30 per cent with single-axis tracking, nearly double the 15-17 per cent typical in equatorial Indonesia, where persistent cloud and rain take their toll.
 
-The Atacama Desert in Chile, the Arabian Peninsula, the Saharan fringe, and parts of southern Africa share this gift. The Pilbara alone has multiple projects in development exceeding 26 gigawatts of planned capacity, including the Australian Renewable Energy Hub (AREH), granted Priority Project status by the Western Australian government in December 2024.
+The Atacama Desert in Chile, the Arabian Peninsula, the Saharan fringe, and parts of southern Africa share this gift. The Pilbara alone has multiple projects in development exceeding 26 gigawatts of planned capacity, including the Australian Renewable Energy Hub (AREH). AREH was granted Priority Project status by the Western Australian government in December 2024, though BP withdrew its 63.6 per cent stake in July 2025. InterContinental Energy has assumed operational control, with a final investment decision targeting 2028 and first power by 2030. The project is focused on green hydrogen and ammonia export, but the same sunshine infrastructure could charge battery vessels.
 
 The strategic question for the coming decades is how to move that surplus sunshine to the places that need it -- by cable, by chemical carrier, or by battery ship. To understand what battery ships can and cannot do, the numbers must be examined.
 
@@ -91,7 +91,7 @@ The strategic question for the coming decades is how to move that surplus sunshi
 
 ## What the Numbers Say
 
-To ground this concept, we ran a detailed analysis based on a reference vessel: a Handymax/Supramax bulk carrier of about 50,000 deadweight tonnes -- the workhorse of global dry-bulk shipping, roughly 170 metres long and 32 metres wide.
+To ground this concept, we ran a detailed analysis based on a reference vessel: a Handymax/Supramax bulk carrier of about 50,000 deadweight tonnes -- the workhorse of global dry-bulk shipping, roughly 170-190 metres long and 32 metres wide.
 
 ### Today's technology
 
@@ -99,15 +99,17 @@ Using current battery technology (Tesla Megapack 2 class, 3.9 MWh per unit at ab
 
 With today's batteries, you would need 217 shipments of batteries to match the electricity from one shipment of diesel. Physically possible. Economically absurd.
 
-### With 2030 battery technology
+### With next-generation battery technology
 
-The picture changes. Multiple manufacturers -- including China's CATL and FAW -- have demonstrated solid-state and lithium-sulphur cells achieving 500 Wh/kg, roughly 2.5 times the energy density of current LFP cells. Industry roadmaps project commercial availability at scale by about 2030.
+The picture changes -- in two phases. Multiple manufacturers have demonstrated cells at 400-500 Wh/kg: CATL, Samsung SDI, QuantumScape, and China's FAW among them. Semi-solid-state cells at 400 Wh/kg are expected at commercial scale by about 2030; all-solid-state cells at 500 Wh/kg by 2033-2035. China's official battery roadmap targets 400 Wh/kg by 2030 and 500 Wh/kg by 2035.
 
-Crucially, batteries designed specifically for energy transport -- stripped of the standalone inverters, weatherproof enclosures, and individual thermal management systems that grid-installation batteries require -- could achieve system-level densities of about 375 Wh/kg. In a purpose-built battery ship, the binding constraint becomes weight, not volume. Our reference vessel could carry about 18 GWh, using only 72 per cent of its hold volume while filling 100 per cent of its cargo weight capacity.
+Batteries designed specifically for energy transport -- stripped of the standalone inverters, weatherproof enclosures, and individual thermal management systems that grid-installation batteries require -- could achieve system-level densities of 330-400 Wh/kg. In a purpose-built battery ship, the binding constraint becomes weight, not volume. Our reference vessel could carry 16-19 GWh depending on cell generation, using 60-77 per cent of its hold volume while filling 100 per cent of its cargo weight capacity. At the central estimate of 18 GWh, the ratio drops from 217:1 to about 13:1.
 
-The ratio drops from 217:1 to about 14.5:1. Still unfavourable on a per-shipment basis, but the batteries are rechargeable. Over a 20-year service life with 26 round trips per year, each ship delivers about 8,600 GWh. The diesel it replaces would have required about 7.2 million tonnes of fuel.
+Still unfavourable on a per-shipment basis, but the batteries are rechargeable. Over a 20-year service life with 33 round trips per year, each ship delivers about 10,900 GWh -- displacing roughly 2.2 million tonnes of diesel fuel.
 
-![Battery shipments needed to match one diesel cargo -- current vs 2030 technology](images/04-battery-density-ratio.svg)
+This is no longer hypothetical engineering. Japan's PowerX has built a 140-metre battery tanker carrying 241 MWh in containerised LFP batteries, with field testing commencing in 2026. It is modest in scale -- about one-quarter of our reference vessel's current-tech capacity -- but it validates the core concept: a purpose-built vessel that sails to a destination, plugs into the grid, and discharges stored electricity.
+
+![Battery shipments needed to match one diesel cargo -- current vs next-generation technology](images/04-battery-density-ratio.svg)
 
 ---
 
@@ -115,17 +117,17 @@ The ratio drops from 217:1 to about 14.5:1. Still unfavourable on a per-shipment
 
 Consider a concrete scenario. A fleet of battery ships operates between Port Hedland, Western Australia, and the port of Tanjung Priok in Jakarta.
 
-Sea distance: about 1,500 nautical miles. At 14 knots, the crossing takes 4.5 days. Including discharge, recharge, and port operations, the total cycle time is about 14 days. Each ship delivers about 16.5 GWh net per voyage.
+Sea distance: about 1,270 nautical miles. At 14 knots, the crossing takes under four days. Including discharge, recharge, and port operations, the total cycle time is about 11 days. Each ship delivers about 16.5 GWh net per voyage.
 
-Greater Jakarta's 35 million inhabitants consume about 90 GWh of electricity per day. To supply 10 per cent of that -- 9 GWh per day -- would require 8 ships operating in continuous rotation, fed by a 1.5 GW PV farm in the Pilbara covering about 29 square kilometres.
+Greater Jakarta's 35 million inhabitants consume about 90 GWh of electricity per day. To supply 10 per cent of that -- 9 GWh per day -- would require 6 ships operating in continuous rotation, fed by a 1.4 GW PV farm in the Pilbara covering about 27 square kilometres.
 
-The economics are not good. At a projected 2030 battery cost of $75/kWh, the total system -- ships, batteries, PV farm, port infrastructure -- comes to roughly $12.7 billion, producing electricity at a levelised cost of about $453/MWh. That is 2.4 times the cost of continuing to ship and burn diesel.
+The economics are not good. At a projected battery cost of $75/kWh, the total system -- ships, batteries, PV farm, port infrastructure -- comes to roughly $10 billion, producing electricity at a levelised cost of about $348/MWh. That is twice the cost of continuing to ship and burn diesel.
 
 For powering a major city, battery ships lose. They should lose. Other technologies do this better.
 
-**Submarine cables** are superior for large-scale, fixed-route power delivery. The Sun Cable project, at A$35 billion, proposes to deliver 1.75 GW from Australia to Singapore via a 4,300 km HVDC cable. A shorter cable to Indonesia -- roughly 2,800 km from Port Hedland to Jakarta -- could deliver electricity at $120-240/MWh depending on scale, breaking even with diesel within about eight years.
+**Submarine cables** are superior for large-scale, fixed-route power delivery. The Sun Cable project, at A$35 billion, proposes to deliver 1.75 GW from Australia to Singapore via a 4,300 km HVDC cable -- with a final investment decision targeting 2027 and first power in the early 2030s. Sun Cable has secured Indonesian development permits and is investing $2.5 billion in Indonesia, with the cables transiting largely through Indonesian waters. A shorter cable to Indonesia -- roughly 2,800 km from Port Hedland to Jakarta -- could deliver electricity at $130-250/MWh depending on scale, though such a route must contend with the Timor Trough at ~3,300 metres depth, exceeding the current proven operational record for submarine HVDC cable installation of 2,150 metres (Nexans, December 2025).
 
-**Green hydrogen and ammonia shipping** is favoured by the AREH project and many international investors. Ammonia has roughly five times the energy density of next-generation batteries by weight and can be shipped in existing bulk carriers. But it must be converted back to electricity at the destination, losing 40-60 per cent of its energy in the round trip. And ammonia is toxic. A battery ship delivers electricity directly into the grid with only 8-18 per cent loss.
+**Green hydrogen and ammonia shipping** is favoured by the AREH project and many international investors. Ammonia has roughly five times the energy density of next-generation batteries by weight and can be shipped in existing bulk carriers. But it must be converted back to electricity at the destination, losing 58-77 per cent of its energy in the full production-shipping-reconversion cycle. And ammonia is toxic. A battery ship delivers electricity directly into the grid with only 8-16 per cent loss.
 
 **Local PV-plus-battery installations** are the most obvious solution for many locations. But they require sufficient land area (not available on small atolls), stable maintenance capacity (not available on every island), and substantial upfront investment per site.
 
@@ -143,7 +145,7 @@ The archipelago contains more than 17,500 islands, about 6,000 of them inhabited
 
 Consumers pay the same subsidised tariff as their counterparts in Jakarta. The state absorbs the difference -- hundreds of dollars per megawatt-hour, multiplied across thousands of generators, across hundreds of islands, every hour of every day. This is not merely an environmental problem. It is a fiscal haemorrhage.
 
-The government knows this. MEMR Regulation 19/2025 establishes a framework for hybrid power plants mandating renewable energy as the primary generation source, with explicit application to small islands and isolated areas. A further regulation is expected in 2026 to encourage battery energy storage and hydrogen in remote locations. The policy direction is clear. What is lacking is a mechanism to deliver large quantities of clean energy to places that have no grid connection and no prospect of one.
+The government knows this. MEMR Regulation 19/2025, issued in December 2025, establishes a framework for hybrid power plants mandating renewable energy as the primary generation source, with explicit application to small islands and isolated areas. Government Regulation No. 40 of 2025 designates hydrogen and ammonia as strategic new energy sources, with a national roadmap launched in June 2025. PLN has already deployed two floating power barges (*kapal listrik*) -- 60 MW units built by PT PAL Indonesia, now operational in Ambon (July 2024) and Kolaka (April 2025). The policy direction is clear. What is lacking is a mechanism to deliver large quantities of clean energy to places that have no grid connection and no prospect of one.
 
 This is where battery ships find their purpose.
 
@@ -153,7 +155,7 @@ This is where battery ships find their purpose.
 
 The battery ship for Indonesia's islands is not the 50,000-tonne ocean-crossing vessel described above. It is something much smaller, operating much shorter routes, and serving a fundamentally different economic equation.
 
-Consider a coastal battery vessel of 1,000-3,000 deadweight tonnes -- roughly the size of the inter-island cargo ships that already ply Indonesian waters by the hundreds. With next-generation battery packs at 375 Wh/kg, such a vessel could carry:
+Consider a coastal battery vessel of 1,000-3,000 deadweight tonnes -- roughly the size of the inter-island cargo ships that already ply Indonesian waters by the hundreds. With advanced battery packs at 375 Wh/kg (the system-level density expected by the early 2030s), such a vessel could carry:
 
 | Vessel Size (DWT) | Battery Cargo | Energy Stored | Island Equivalent |
 |:---:|:---:|:---:|:---:|
@@ -197,11 +199,13 @@ PLN's cost of diesel generation on remote islands: $300-550/MWh. The cost of bat
 | Trips per year | ~120 |
 | Energy delivered per year | ~85,200 MWh |
 | Vessel cost | ~$15M (purpose-built) |
-| Battery cost ($50/kWh, 2030) | ~$35.5M |
+| Battery cost ($50/kWh) | ~$35.5M |
 | Hub charging infrastructure | ~$5M (amortised share) |
 | Island discharge infrastructure | ~$2M per island |
 | Annual opex (crew, fuel, maintenance) | ~$3M |
 | **Levelised cost (20-year, 8% discount)** | **~$120-180/MWh** |
+
+The $50/kWh battery cost used here is not speculative: BloombergNEF's December 2025 survey recorded the lowest observed stationary LFP pack price at exactly $50/kWh, with the segment average at $70/kWh -- already a 45 per cent decline from the previous year.
 
 Compare this to the status quo:
 
@@ -210,13 +214,13 @@ Compare this to the status quo:
 | **Cost of electricity** | $300-550/MWh | $120-180/MWh |
 | **Government subsidy needed** (vs $73/MWh tariff) | $227-477/MWh | $47-107/MWh |
 | **Subsidy reduction** | -- | **50-80%** |
-| **Carbon emissions** | ~800 t CO2/GWh | ~0 (if hub is renewable-fed) |
+| **Carbon emissions** | ~800 t CO₂/GWh | ~0 (if hub is renewable-fed) |
 | **Fuel import dependency** | 100% imported diesel | 0% |
 | **Fuel price exposure** | Full global oil volatility | None (sunshine is free) |
 
 ![Cost of electricity on remote islands -- diesel vs battery ship](images/08-cost-comparison.svg)
 
-At these numbers, battery ships are not merely competitive -- they are superior by a factor of two to four. The subsidy burden drops by 50-80 per cent per island served.
+At these numbers, battery ships are not merely competitive -- they are superior by a factor of two to four. The subsidy burden drops by 50-80 per cent per island served. And the regulatory trajectory makes diesel steadily more expensive: the IMO approved its Net-Zero Framework in April 2025 -- the first global regime combining mandatory emissions limits with carbon pricing for international shipping. The EU's Emissions Trading System reached full compliance for shipping from January 2026, with carbon allowances at EUR 65-90 per tonne.
 
 The fiscal implications are significant. If battery ships could serve even half of PLN's 2.6 GW of remote diesel capacity, at an average subsidy saving of $200/MWh, the annual relief would be in the range of **$2-3 billion** -- a significant fraction of the total electricity subsidy. That is real money, redirected from buying imported diesel to building domestic renewable capacity.
 
@@ -270,11 +274,11 @@ Geothermal runs at midnight. Sunshine runs at noon. Battery ships bridge the gap
 
 The battery ship concept rests on two technological developments. Both are clearly on track. Neither is yet available at commercial scale.
 
-**Battery energy density of 400-500 Wh/kg at the cell level.** CATL has confirmed solid-state cells at 500 Wh/kg. China's FAW has demonstrated a hybrid solid-liquid manganese battery at the same density, installed in a production vehicle. Samsung SDI and several American startups (including QuantumScape) have announced similar milestones. The consensus -- Fraunhofer ISI, EU Battery 2030+, and the major manufacturers' own roadmaps -- places commercial-scale production at about 2029-2032.
+**Battery energy density of 400-500 Wh/kg at the cell level.** CATL has begun trial production of solid-state cells and confirmed 500 Wh/kg in condensed-matter chemistry. Samsung SDI has demonstrated 500 Wh/kg and 900 Wh/L. QuantumScape inaugurated its Eagle Line pilot production facility in February 2026. China's FAW has fitted semi-solid-state batteries exceeding 500 Wh/kg into prototype vehicles. The consensus -- China's official roadmap, Fraunhofer ISI, and the major manufacturers' own projections -- places semi-solid cells at 400 Wh/kg by about 2030, with all-solid-state cells at 500 Wh/kg reaching commercial scale between 2033 and 2035.
 
-**Battery cost below $50/kWh at the pack level.** BloombergNEF reported that stationary storage pack prices fell to $70/kWh in 2025 -- a 45 per cent drop in a single year. Purpose-built transport packs, simpler than grid-installation packs, could reach $40-50/kWh by 2030. The trajectory continues downward, driven by manufacturing scale, chemical innovation, and the same learning curves that reduced PV panel costs by 99 per cent between 1976 and 2024.
+**Battery cost below $50/kWh at the pack level.** BloombergNEF reported that stationary storage pack prices fell to $70/kWh in 2025 -- a 45 per cent drop in a single year -- with the lowest observed LFP pack price already at $50/kWh. Purpose-built transport packs, simpler than grid-installation packs, could reach $30-40/kWh by the early 2030s. The trajectory continues downward, driven by manufacturing scale, chemical innovation, and the same learning curves that reduced PV panel costs by 99 per cent between 1976 and 2024.
 
-The ships themselves require no breakthrough. They are conventional cargo vessels with electrical discharge infrastructure -- essentially a large shore-power connection and power management system. The naval architecture is simpler than an LNG carrier.
+The ships themselves require no breakthrough. They are conventional cargo vessels with electrical discharge infrastructure -- essentially a large shore-power connection and power management system. The naval architecture is simpler than an LNG carrier. And the concept is no longer purely theoretical: Japan's PowerX is field-testing a 241 MWh battery tanker in 2026, CATL expects ocean-going battery-electric vessels within three years, and over 1,000 ships worldwide now carry large battery systems for propulsion.
 
 **Realistic timeline:**
 
@@ -295,13 +299,13 @@ Battery ships are not merely a technology to be imported. They are an opportunit
 
 A battery ship fleet requires four categories of manufactured goods, all of which Indonesia could produce domestically:
 
-**1. PV panels.** Indonesia's PV manufacturing sector is nascent but accelerating. Total installed capacity at the end of 2024 stood at just 942 MW. But in early 2025, Pertamina NRE and China's LONGi -- the world's largest PV manufacturer -- launched a joint venture for a **1.4 GW/year panel manufacturing facility** in Indonesia. Separately, Indonesia has secured **$1.4 billion in investment for 50 GW of manufacturing capacity**. The direction is clear. The scale needs to grow.
+**1. PV panels.** Indonesia's PV manufacturing sector is nascent but accelerating. Total installed capacity at the end of 2024 stood at just 942 MW. But in early 2025, Pertamina NRE and China's LONGi -- the world's largest PV manufacturer -- launched a joint venture for a **1.4 GW/year panel manufacturing facility** in Indonesia, with manufacturing preparation commencing in June 2025. Separately, Danantara Indonesia has secured **$1.4 billion in investment for 50 GW of annual manufacturing capacity**, expected to complete by end of 2026. The direction is clear. The scale needs to grow.
 
-**2. Battery packs.** The global battery market has shifted decisively toward LFP (Lithium Iron Phosphate) chemistry, which overtook nickel-based batteries as the dominant technology in 2025. This matters for Indonesia: LFP uses no nickel at all -- just lithium, iron, and phosphate. Indonesia's much-discussed nickel-to-battery strategy, centred on HPAL processing of laterite ore in Sulawesi, faces an awkward reality: the fastest-growing battery segment does not need Indonesian nickel, and HPAL technology carries severe environmental costs and documented safety failures.
+**2. Battery packs.** The global battery market has shifted decisively toward LFP (Lithium Iron Phosphate) chemistry, which overtook nickel-based batteries as the dominant technology in 2025 -- more than 90 per cent of EVs sold in Indonesia now use LFP batteries. This matters because LFP uses no nickel at all -- just lithium, iron, and phosphate. Indonesia's much-discussed nickel-to-battery strategy, centred on HPAL processing of laterite ore in Sulawesi, faces an awkward reality: the fastest-growing battery segment does not need Indonesian nickel, and HPAL technology carries severe environmental costs and documented safety failures.
 
-The opportunity lies not in nickel chemistry but in **battery pack assembly and integration**. LFP cells can be imported (from CATL, BYD, or the domestic capacity that CATL's $6 billion plant in West Java will provide from late 2026) and assembled into purpose-built shipping-grade packs locally. Indonesia's 2024 regulation mandates **40 per cent local content (TKDN)** for energy storage projects. This is precisely the kind of mid-tech assembly and integration work that creates manufacturing employment without requiring the nation to master cell electrochemistry.
+The opportunity lies not in nickel chemistry but in **battery pack assembly and integration**. LFP cells can be imported or produced domestically -- CATL broke ground on a **$6 billion battery plant** in Karawang, West Java, in June 2025, with initial capacity of 6.9 GWh by end of 2026 and expansion to 40 GWh by 2028 including stationary storage. Indonesia's 2024 regulation mandates **40 per cent local content (TKDN)** for energy storage projects. This is precisely the kind of mid-tech assembly and integration work that creates manufacturing employment without requiring the nation to master cell electrochemistry.
 
-**3. Ships.** Indonesia has over 250 shipyards with a combined annual new-building capacity of about 400,000 DWT and repair capacity of 6 million DWT. Domestic shipbuilding is forecast to grow 16.8 per cent by 2028. A purpose-built battery vessel of 1,000-3,000 DWT is well within the capability of Indonesian yards. These are not LNG carriers; they are robust cargo vessels with electrical discharge systems. The naval architecture is simpler than many vessels already built in Surabaya and Batam.
+**3. Ships.** Indonesia has **342 active shipyards** across 29 provinces, with a combined annual new-building capacity of **1 million DWT** and repair capacity of 12 million DWT. The government's priority programme targets 975 new vessels, with over half the current fleet exceeding 25 years of age and requiring replacement. A purpose-built battery vessel of 1,000-3,000 DWT is well within the capability of Indonesian yards. These are not LNG carriers; they are robust cargo vessels with electrical discharge systems. The naval architecture is simpler than many vessels already built in Surabaya and Batam.
 
 **4. Charging and discharge infrastructure.** Shore-side power connections, grid integration equipment, switching systems, and port electrical infrastructure -- all candidates for domestic manufacturing or at minimum domestic assembly.
 
@@ -338,7 +342,7 @@ Battery ships, PV farms, geothermal plants, and grid-scale storage all involve t
 
 The principle is straightforward: **every major energy project should include a binding technology transfer and local capability component.** When CATL builds a $6 billion battery plant, the deal should require not merely factory jobs but the training of Indonesian battery engineers. When LONGi establishes PV manufacturing, Indonesian suppliers should progressively replace imported components. When purpose-built battery ships are designed, Indonesian naval architects should be at the table from the first drawings, not handed the finished blueprints. The 40 per cent TKDN for energy storage is a start. It should be treated as a rising floor, not a fixed ceiling.
 
-The practical case for domestic capability is not nationalistic pride -- it is **resilience**. A submarine cable from Australia is a single physical link crossing sovereign waters: vulnerable to natural disaster, equipment failure, or diplomatic disagreement, and requiring months or years to repair if severed. A battery ship fleet, by contrast, is inherently resilient. Ships can be rerouted. Battery packs can be assembled from multiple cell suppliers. PV farms use standardised components available from dozens of manufacturers. If one partner becomes unreliable, alternatives exist. And if Indonesia has built its own manufacturing base -- even a modest one -- it can sustain operations independently while new arrangements are made.
+The practical case for domestic capability is not nationalistic pride -- it is **resilience**. A submarine cable from Australia is a single physical link crossing sovereign waters: vulnerable to natural disaster, equipment failure, or diplomatic disagreement, and requiring months or years to repair if severed. The Java Trench reaches 7,290 metres -- far beyond the current tested depth for submarine HVDC cable of 3,000 metres (Nexans sea trial, early 2026), let alone the operational record of 2,150 metres -- posing an additional engineering constraint for any cable route from Australia to Java. A battery ship fleet, by contrast, is inherently resilient. Ships can be rerouted. Battery packs can be assembled from multiple cell suppliers. PV farms use standardised components available from dozens of manufacturers. If one partner becomes unreliable, alternatives exist. And if Indonesia has built its own manufacturing base -- even a modest one -- it can sustain operations independently while new arrangements are made.
 
 Indonesia does not need to manufacture every battery cell. It does need to be able to assemble battery packs, build ships, install PV farms, and operate charging infrastructure with Indonesian hands and Indonesian expertise. The partnerships of the next decade should be designed so that by the decade after, Indonesia can do most of this on its own -- not because foreign partners are unwelcome, but because a nation of 280 million people on 6,000 islands cannot afford to depend on anyone else for the electricity that holds it together.
 
@@ -352,9 +356,9 @@ For battery ships -- and the broader renewable transformation they serve -- to m
 
 **1. Accelerate domestic renewables.** The geothermal, rooftop PV, and utility-scale development described above is not optional -- it is foundational. Without domestic clean energy, battery ships are empty vessels. Current targets should be treated as floors, not ceilings.
 
-**2. Create a regulatory framework for mobile energy storage.** MEMR Regulation 19/2025 on hybrid power plants is a strong foundation, but it envisions stationary installations. A supplementary framework is needed for mobile battery systems -- ships that arrive, discharge, and depart -- addressing grid interconnection standards, safety certification, and commercial arrangements. The forthcoming 2026 regulation on BESS and hydrogen should explicitly encompass mobile maritime battery systems.
+**2. Create a regulatory framework for mobile energy storage.** MEMR Regulation 19/2025, issued in December 2025, establishes a framework for hybrid power plants on small islands -- a strong foundation, but it envisions stationary installations. Government Regulation No. 40 of 2025 designates hydrogen and ammonia as strategic new energy sources. A supplementary framework is needed for mobile battery systems -- ships that arrive, discharge, and depart -- addressing grid interconnection standards, safety certification, and commercial arrangements.
 
-**3. Revise PLN's procurement model.** PLN contracts for power generation capacity, not energy delivery. A battery ship is neither a power plant nor a fuel supplier -- it is a mobile energy delivery and storage service. The precedent exists: PLN already contracts floating power barges (*kapal listrik*) to supply remote islands. The battery ship is their clean successor. PLN must also be permitted to contract for grid storage services from docked battery ships -- a function with no precedent in current procurement.
+**3. Revise PLN's procurement model.** PLN contracts for power generation capacity, not energy delivery. A battery ship is neither a power plant nor a fuel supplier -- it is a mobile energy delivery and storage service. The precedent exists: PLN already operates two floating power barges (*kapal listrik*), 60 MW units built by PT PAL Indonesia, now supplying Ambon and Kolaka. The battery ship is their clean successor. PLN must also be permitted to contract for grid storage services from docked battery ships -- a function with no precedent in current procurement.
 
 **4. Invest in hub infrastructure.** Charging stations at hub islands -- 50-100 MW each at six to eight locations including Kupang, Ambon, Sorong, Manado, and Makassar -- are prerequisites for the early deployment phase. Indonesia's existing programme to develop renewable energy zones in these regions provides a ready-made vehicle.
 
@@ -380,7 +384,7 @@ In Indonesian, *solar* means diesel. It does not have to. The technology, the ec
 
 ---
 
-*This analysis draws on primary data from the International Energy Agency, BloombergNEF, CSIRO (Australia), NREL (United States), IRENA, Indonesia's Ministry of Energy and Mineral Resources, PLN financial disclosures, the World Bank, and manufacturer specifications from Tesla, CATL, and MAN Energy Solutions. Detailed technical calculations are documented in the companion technical report, "Battery Ship Energy Transport: Feasibility Study" (March 2026).*
+*This analysis draws on primary data from the International Energy Agency, BloombergNEF, CSIRO (Australia), NREL (United States), IRENA, Indonesia's Ministry of Energy and Mineral Resources, PLN financial disclosures, the World Bank, manufacturer specifications from Tesla, CATL, BYD, and PowerX, and maritime regulatory frameworks from the IMO, European Commission, and DNV. Detailed technical calculations are documented in the companion technical report, "Battery Ship Energy Transport: Feasibility Study" (revised April 2026).*
 
 ---
 
