@@ -31,7 +31,7 @@
   <rect x="329.8" y="92" width="255.2" height="36" rx="3" fill="#e0d0c8"/>
   <text x="457" y="115" text-anchor="middle" class="pct-label" fill="#a08070">58% lost</text>
 
-  <!-- Row 2: Battery Ship -->
+  <!-- Row 2: Battery Tanker -->
   <text x="8" y="168" class="row-label">Battery</text>
   <text x="8" y="182" class="note">ship</text>
   <!-- Delivered (84%) = 440 * 0.84 = 369.6 -->

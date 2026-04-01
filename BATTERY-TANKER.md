@@ -1,4 +1,4 @@
-# Battery Ship Energy Transport: Feasibility Study
+# Battery Tanker Energy Transport: Feasibility Study
 
 **Original Research:** 2026-03-24
 **Revised:** 2026-04-01
@@ -187,9 +187,9 @@ Multiple manufacturers have demonstrated cells at 400-500 Wh/kg, but none has ac
 
 **Note on sodium-ion:** CATL's "Naxtra" brand (mass production from late 2025) achieves 160-200 Wh/kg at $55-70/kWh cell level. Excellent cycle life (8,000+) and temperature range (-40°C to +60°C), but lower energy density makes it less suitable for weight-constrained shipping. Could be relevant for cost-optimised stationary hubs.
 
-### Real-World Battery Ship Projects
+### Real-World Battery Tanker Projects
 
-The battery ship concept is no longer purely theoretical:
+The battery tanker concept is no longer purely theoretical:
 
 **PowerX Battery Tanker "X" (Japan)** — the most directly comparable project to this feasibility study:
 
@@ -204,7 +204,38 @@ The battery ship concept is no longer purely theoretical:
 | Status | Proof-of-concept vessel targeting 2025 completion, field testing 2026 |
 | Subsidiary | Ocean Power Grid Inc. (maritime power transmission) |
 
-PowerX's 241 MWh is modest — roughly one-quarter of our reference vessel's 1.1 GWh current-tech capacity, and targeting short-distance island-to-island routes in Japan. But it validates the core engineering concept: a purpose-built vessel carrying containerised batteries for grid discharge at destination ports.
+The 140 m "X" is PowerX's proof-of-concept vessel. Its 241 MWh is modest — roughly one-quarter of our reference vessel's 1.1 GWh current-tech capacity — but it validates the core engineering concept: a purpose-built vessel carrying containerised batteries for grid discharge at destination ports. The commercial programme has since moved to Ocean Power Grid, a dedicated subsidiary.
+
+**Ocean Power Grid (Japan)** — the world's most advanced battery tanker venture, and the commercial successor to the PowerX "X":
+
+Ocean Power Grid Inc. was established in February 2024 as a PowerX subsidiary focused exclusively on marine power transmission, island microgrids, and offshore data centres. Led by Hideyuki Onishi (former President of GE Energy Japan; Osaka University solar energy research), OPG is building an offshore power grid for Japan's 14,125 islands — replacing diesel generation on remote islands with battery-delivered renewable electricity.
+
+OPG has developed two purpose-built vessel classes, both smaller and more practical than the original 140 m "X":
+
+| Parameter | Power Ark | Power Barge |
+|-----------|-----------|-------------|
+| Length | ~90 m | ~60 m |
+| Breadth | ~18 m | ~30 m |
+| Battery capacity | 120 MWh | 120 MWh |
+| Navigation range | Coastal, near-sea, oceanic | Inland waters |
+
+The Power Ark is designed for inter-island and island-to-mainland routes in open water; the Power Barge targets sheltered harbour and inland waterway operations.
+
+**Yakushima pilot project (feasibility study launched July 2025):** OPG's inaugural deployment will transport surplus hydroelectric power from Yakushima Island — where rainfall and 2,000 m mountains provide enough hydropower to meet nearly all local demand — to neighbouring islands including Tanegashima, which currently rely on diesel generation. Partner: Yakushima Denko Co., Ltd. (hydro plant operator). Target: commercial operations by ~2028. This would be the world's first commercial battery tanker service.
+
+**Funding and partnerships:** OPG completed a Series A round of approximately ¥1.1 billion (~US$7M) in February 2026, drawing investors from across the power, maritime, and financial sectors:
+
+- Nippon Yusen Kabushiki Kaisha (NYK Line — Japan's largest shipping company)
+- Kyushu Electric Power (capital and business partnership signed June 2025)
+- Chubu Electric Power Group (via CEPCO-R LLC)
+- Development Bank of Japan
+- Mizuho Bank
+- KRAFTIA Corporation
+- Tatsumi Shokai Co., Ltd.
+
+OPG has also signed municipal partnership agreements with the City of Yokohama (shore power for cruise ships and port energy), the City of Muroran, and Tomakomai Port in Hokkaido.
+
+**Relevance to this study:** OPG validates the island-hopping battery tanker model at shorter range and smaller scale. Its architecture — containerised LFP batteries, port-side charging/discharge, flexible routing between islands — is directly analogous to the Australia-to-Indonesia long-haul concept examined here, differing primarily in distance and cargo capacity. If OPG's Yakushima service reaches commercial operation by 2028 as planned, it will provide the first real-world operational data for battery tanker economics, round-trip efficiency, and port integration — data that would substantially de-risk larger-scale deployments.
 
 **Other developments:**
 - **Fleetzero (US):** $43M Series A (January 2026), modular 3.8 MWh battery units at 25% the footprint of standard containers. Hybrid conversion vessel targeting mid-2026.
@@ -311,7 +342,7 @@ The AREH near Port Hedland is the Pilbara's flagship renewable project:
 
 **Critical update:** BP withdrew from AREH in July 2025, relinquishing its 63.57% operating stake. InterContinental Energy (~26%) has assumed operational control, with CWP Global (~10%) remaining. In February 2026, ARENA awarded A$21.5 million for a pre-FEED study covering renewable hydrogen production for up to 1 GW. At full capacity, AREH aims to produce ~1.6 million tonnes of green hydrogen or ~9 million tonnes of green ammonia per year.
 
-AREH's hydrogen/ammonia focus does not preclude electricity export via battery ships. The solar and wind infrastructure is fungible — the same megawatts that feed electrolysers could charge battery vessels, depending on market conditions and offtake agreements.
+AREH's hydrogen/ammonia focus does not preclude electricity export via battery tankers. The solar and wind infrastructure is fungible — the same megawatts that feed electrolysers could charge battery vessels, depending on market conditions and offtake agreements.
 
 ### Charging 280 Megapack 2 Units (Current Tech)
 
@@ -363,7 +394,7 @@ Ships loaded with rechargeable battery packs are charged at a solar farm in the 
 
 Both models yield ~16.5 GWh net per trip. **The economic analysis below uses the diesel-propulsion model**, with ship fuel as a separate line item.
 
-**Overall energy efficiency:** Considering both battery and propulsion losses from a primary energy perspective, the battery ship pathway loses ~16% (8% RTE + ~8% propulsion energy equivalent). This compares favourably with the 58% loss inherent in diesel generation and the ~11% loss in a submarine power cable.
+**Overall energy efficiency:** Considering both battery and propulsion losses from a primary energy perspective, the battery tanker pathway loses ~16% (8% RTE + ~8% propulsion energy equivalent). This compares favourably with the 58% loss inherent in diesel generation and the ~11% loss in a submarine power cable.
 
 ### Jakarta Electricity Demand
 
@@ -428,7 +459,7 @@ All costs modelled for the **10% of Jakarta** scenario (9 GWh/day = 3,285 GWh/ye
 
 | Item | Cost |
 |------|------|
-| Battery ships (6 × $45M) | $270M |
+| Battery tankers (6 × $45M) | $270M |
 | **Battery packs** (6 × 18 GWh × $75/kWh) | **$8,100M** |
 | Solar farm (1.4 GW, Pilbara, @ $850/kW) | $1,190M |
 | Charging infrastructure (Port Hedland) | $150M |
@@ -507,7 +538,7 @@ Annual CO₂ from diesel: 661,000 mt diesel × 3.15 = **~2.08 Mt CO₂/year**.
 
 ### Maritime Regulatory Impact on Economics
 
-Three regulatory developments significantly strengthen the battery ship case:
+Three regulatory developments significantly strengthen the battery tanker case:
 
 **IMO Net-Zero Framework (NZF):** Approved at MEPC 83 in April 2025 — the first global framework combining mandatory emissions limits and GHG pricing for an entire industry sector. Adoption delayed to October 2026, expected in force from 2027. Applies to ships above 5,000 GT. Will impose carbon costs on all diesel tanker operations.
 
@@ -515,7 +546,7 @@ Three regulatory developments significantly strengthen the battery ship case:
 
 **FuelEU Maritime:** Active from January 2025, mandating a 2% GHG intensity reduction in 2025, increasing to 6% by 2030. Reporting requirements and compliance documents in force from mid-2026.
 
-These regulations create a **rising floor price for carbon** in international shipping. As carbon costs are internalised globally, the economics shift steadily toward zero-emission energy transport. A battery ship delivering clean electricity faces none of these costs.
+These regulations create a **rising floor price for carbon** in international shipping. As carbon costs are internalised globally, the economics shift steadily toward zero-emission energy transport. A battery tanker delivering clean electricity faces none of these costs.
 
 ---
 
@@ -615,7 +646,7 @@ No cable longer than 800 km is currently operational. Sun Cable's proposed 4,300
 
 ### Scaling Dynamics
 
-Cable costs are dominated by fixed infrastructure (installation, converters). Doubling capacity costs ~40% more, not 100%. Battery ship costs scale linearly — each new ship needs a full battery load at ~$1.35B ($75/kWh). At full Jakarta scale (90 GWh/day), the submarine cable LCOE drops below $130/MWh, while the battery fleet remains above $340/MWh.
+Cable costs are dominated by fixed infrastructure (installation, converters). Doubling capacity costs ~40% more, not 100%. Battery tanker costs scale linearly — each new ship needs a full battery load at ~$1.35B ($75/kWh). At full Jakarta scale (90 GWh/day), the submarine cable LCOE drops below $130/MWh, while the battery fleet remains above $340/MWh.
 
 ### Energy Delivery Efficiency
 
@@ -649,7 +680,7 @@ On a pure solar-to-grid basis, the all-electric battery fleet delivers **2× mor
 
 ## 10. Maritime Regulatory Environment
 
-The international regulatory landscape is tightening around maritime emissions, with three developments particularly relevant to the battery ship concept:
+The international regulatory landscape is tightening around maritime emissions, with three developments particularly relevant to the battery tanker concept:
 
 ### IMO Net-Zero Framework (2025)
 
@@ -665,9 +696,9 @@ Key targets:
 - **EU ETS for shipping:** 100% compliance from January 2026; methane and nitrous oxide included alongside CO₂. Carbon allowance price: EUR 65-90/tonne, forecast EUR 122 by 2030.
 - **FuelEU Maritime:** Active from January 2025; 2% GHG intensity reduction in 2025, rising to 6% by 2030.
 
-### Implications for Battery Ships
+### Implications for Battery Tankers
 
-Every regulatory tightening adds cost to diesel energy transport and leaves battery ship operations unaffected. A diesel tanker delivering 48,000 mt of fuel, combined with the ~661,000 mt burned annually at destination generators, creates roughly 2.08 Mt CO₂/year for the 10% Jakarta scenario alone. At a carbon price of EUR 100/tonne (plausible by 2030), that adds ~$208M/year to diesel costs — equivalent to raising the diesel LCOE from $175 to $238/MWh.
+Every regulatory tightening adds cost to diesel energy transport and leaves battery tanker operations unaffected. A diesel tanker delivering 48,000 mt of fuel, combined with the ~661,000 mt burned annually at destination generators, creates roughly 2.08 Mt CO₂/year for the 10% Jakarta scenario alone. At a carbon price of EUR 100/tonne (plausible by 2030), that adds ~$208M/year to diesel costs — equivalent to raising the diesel LCOE from $175 to $238/MWh.
 
 The battery fleet has no direct carbon emissions and faces no carbon pricing exposure.
 
@@ -680,7 +711,7 @@ Maritime transport of large-scale battery cargo faces an acknowledged regulatory
 - CINS (Cargo Incident Notification System) published guidelines for shipping Li-ion cells in June 2025
 - PowerX's battery tanker is seeking DNV and Class NK certification — the resulting framework will inform future regulation
 
-Thermal runaway risks are non-trivial: a single 100 kWh battery can release ~20 kg of hydrogen fluoride and up to 6,000 litres of vapour per kWh. Purpose-built battery ships would require dedicated gas emission control, fire suppression, and real-time monitoring systems — engineering challenges, not fundamental barriers.
+Thermal runaway risks are non-trivial: a single 100 kWh battery can release ~20 kg of hydrogen fluoride and up to 6,000 litres of vapour per kWh. Purpose-built battery tankers would require dedicated gas emission control, fire suppression, and real-time monitoring systems — engineering challenges, not fundamental barriers.
 
 ---
 
@@ -706,7 +737,7 @@ From a total energy perspective, the battery fleet pathway loses ~16% per round 
 | Accommodation/bridge roof (minus equipment) | ~200 m² |
 | Forecastle deck (partial, minus gear) | ~150 m² |
 | **Standard retrofit total** | **~1,700 m²** |
-| **Purpose-built battery ship** (flat continuous deck ~100 m × 28 m + superstructure) | **~3,000 m²** |
+| **Purpose-built battery tanker** (flat continuous deck ~100 m × 28 m + superstructure) | **~3,000 m²** |
 
 **Panel specifications (2026 best commercial):**
 
@@ -747,7 +778,7 @@ Vertical Axis Wind Turbines (VAWTs) are the most practical ship-mounted option d
 | Average continuous output | ~50 kW |
 | **Daily output** | **~1.2 MWh/day** |
 
-Note: Flettner rotors (spinning vertical cylinders using the Magnus effect) are an alternative with proven 8-20% fuel savings on cargo ships, but they assist propulsion rather than generating electricity. For a battery ship seeking to recharge cargo, electricity-generating VAWTs are more relevant.
+Note: Flettner rotors (spinning vertical cylinders using the Magnus effect) are an alternative with proven 8-20% fuel savings on cargo ships, but they assist propulsion rather than generating electricity. For a battery tanker seeking to recharge cargo, electricity-generating VAWTs are more relevant.
 
 ### Combined Solar + Wind Output
 
@@ -844,7 +875,7 @@ Onboard solar+wind is a **hotel-load solution, not a cargo-recovery solution**. 
 
 | Scenario | Best Option | Rationale |
 |----------|------------|-----------|
-| **Small/remote island** (<1 GWh/day) | Diesel (now) / Battery ship (2030+) | Cable not economical; battery ship offers flexibility and subsidy relief |
+| **Small/remote island** (<1 GWh/day) | Diesel (now) / Battery tanker (2030+) | Cable not economical; battery tanker offers flexibility and subsidy relief |
 | **Medium city** (~10 GWh/day) | Submarine cable | Breaks even with diesel in ~15 years with rising fuel costs |
 | **Major city** (>50 GWh/day) | Submarine cable, decisively | LCOE drops below diesel; massive long-term savings; sub-linear scaling |
 | **Sovereignty priority** | Battery fleet | No permanent foreign infrastructure; can reroute; energy independence |
@@ -860,7 +891,7 @@ The battery fleet concept occupies a specific niche where:
 
 ### Critical dependencies
 
-The battery ship model depends on:
+The battery tanker model depends on:
 
 - **Battery cost reaching ~$27/kWh or below** at system level for break-even with current diesel prices (achieved at ~$30/kWh when combined with diesel escalation and carbon pricing)
 - **400-500 Wh/kg energy density** becoming commercially available at scale (demonstrated in prototypes but not mass-produced as of 2026; realistic timeline 2030-2035)
@@ -873,9 +904,9 @@ At current pricing ($75/kWh), battery packs represent **82% of total capital** f
 
 ### Competing alternatives
 
-The battery ship concept competes not only with diesel and submarine cables, but also with:
+The battery tanker concept competes not only with diesel and submarine cables, but also with:
 
-- **Green hydrogen/ammonia shipping** — projects like AREH (26 GW Pilbara) plan to convert solar to green hydrogen, ship as ammonia. Ammonia has ~5× the energy density of next-gen batteries by weight and uses existing bulk carrier infrastructure. But the full round-trip efficiency is poor: **58-77% of input energy is lost** in the production-shipping-reconversion cycle, compared to ~16% for battery ships. Ammonia is also toxic and ammonia-to-power technology remains largely pre-commercial. Green hydrogen costs $2.50-5.00/kg unsubsidised (2025-26), projected to fall to $1.50-2.00/kg in favourable locations by 2030.
+- **Green hydrogen/ammonia shipping** — projects like AREH (26 GW Pilbara) plan to convert solar to green hydrogen, ship as ammonia. Ammonia has ~5× the energy density of next-gen batteries by weight and uses existing bulk carrier infrastructure. But the full round-trip efficiency is poor: **58-77% of input energy is lost** in the production-shipping-reconversion cycle, compared to ~16% for battery tankers. Ammonia is also toxic and ammonia-to-power technology remains largely pre-commercial. Green hydrogen costs $2.50-5.00/kg unsubsidised (2025-26), projected to fall to $1.50-2.00/kg in favourable locations by 2030.
 - **Submarine HVDC cables** — Sun Cable's AAPowerLink (A$35B, Darwin to Singapore) demonstrates the concept at scale. A Port Hedland to Jakarta cable (~2,800 km) would be ~40% shorter, but faces the depth challenge of the Timor Trough (~3,300 m) exceeding current proven cable depth (2,150 m operational, 3,000 m tested). No submarine cable longer than ~800 km is currently operational.
 - **Nuclear-powered merchant ships** — HD Korea Shipbuilding received approval-in-principle from DNV for a 15,000 TEU nuclear container ship in 2025. Early pilot vessels projected for mid-2030s. A long-term competitor to all fuel alternatives, but 10+ years from commercial deployment and lacking a regulatory framework.
 
@@ -910,7 +941,7 @@ The battery ship concept competes not only with diesel and submarine cables, but
 - **Battery technology:** CATL, Samsung SDI, QuantumScape, Toyota, FAW announcements; McKinsey battery roadmap; Fraunhofer ISI Roadmap 2030+
 - **Solar data:** CSIRO GenCost 2025-26 draft, IRENA Renewable Power Generation Costs 2024, ARENA, AREH project documentation
 - **Shipping costs:** Star Bulk Carriers, Genco Shipping, ShipNerd, Breakwave Advisors
-- **Battery ship projects:** PowerX Manufacturing (Japan), Fleetzero (US), CATL CAEV, Yara Birkeland
+- **Battery tanker projects:** PowerX Manufacturing (Japan), Ocean Power Grid Inc. (oceanpowergrid.jp — vessel specs, Yakushima feasibility study, Series A announcement 2026), Fleetzero (US), CATL CAEV, Yara Birkeland
 - **Indonesia energy:** IESR Energy Transition Outlook 2025, Climatescope, PLN data, CREA RUPTL analysis, MEMR regulations
 - **Submarine cable:** Sun Cable / AAPowerLink, Nexans (Tyrrhenian Link depth records), NeuConnect, ResearchGate HVDC cost studies
 - **Maritime regulation:** IMO MEPC 83 (Net-Zero Framework), European Commission (EU ETS for shipping), DNV (FuelEU Maritime), DNV Maritime Battery Handbook

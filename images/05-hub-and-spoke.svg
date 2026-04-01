@@ -11,7 +11,7 @@
 
   <!-- Title -->
   <text x="350" y="28" text-anchor="middle" class="title">Hub-and-Spoke Energy Distribution Network</text>
-  <text x="350" y="46" text-anchor="middle" class="subtitle">Battery ships collect charge from hubs and distribute to surrounding islands</text>
+  <text x="350" y="46" text-anchor="middle" class="subtitle">Battery tankers collect charge from hubs and distribute to surrounding islands</text>
 
   <!-- Ocean background -->
   <rect x="20" y="58" width="660" height="350" rx="8" fill="#e8f4f8"/>

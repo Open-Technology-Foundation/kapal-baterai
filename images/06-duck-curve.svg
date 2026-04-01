@@ -10,7 +10,7 @@
   </style>
 
   <!-- Title -->
-  <text x="310" y="28" text-anchor="middle" class="title">The Duck Curve -- and How Battery Ships Solve It</text>
+  <text x="310" y="28" text-anchor="middle" class="title">The Duck Curve -- and How Battery Tankers Solve It</text>
   <text x="310" y="46" text-anchor="middle" class="subtitle">Typical daily electricity profile with high PV penetration</text>
 
   <g transform="translate(70, 60)">
@@ -62,7 +62,7 @@
     <path d="M 350,85 C 370,70 390,58 410,52 C 430,55 445,65 460,85"
       fill="#d94f30" opacity="0.15" stroke="none"/>
 
-    <!-- Battery ship annotations -->
+    <!-- Battery tanker annotations -->
     <!-- Absorb arrow (midday) -->
     <g transform="translate(230, 50)">
       <polygon points="0,0 8,-12 16,0" fill="#1a9988"/>
@@ -85,6 +85,6 @@
     <line x1="140" y1="0" x2="160" y2="0" stroke="#2c3e50" stroke-width="2.5"/>
     <text x="168" y="4" class="legend-text">Grid demand</text>
     <rect x="290" y="-5" width="14" height="10" rx="2" fill="#1a9988" opacity="0.3"/>
-    <text x="310" y="4" class="legend-text">Battery ship role</text>
+    <text x="310" y="4" class="legend-text">Battery tanker role</text>
   </g>
 </svg>
