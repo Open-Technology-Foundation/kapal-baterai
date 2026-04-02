@@ -7,6 +7,8 @@
 
 ---
 
+![Ocean Power Battery Tanker](images/ocean-power-grid/power-ark-rendering.webp)
+
 ## The Paradox
 
 Indonesia sits on the equator. It receives about 1,700 kilowatt-hours of radiant energy per square metre per year -- enough, in theory, to generate many times the nation's electricity needs from sunlight alone.
