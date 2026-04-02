@@ -107,7 +107,7 @@ Batteries designed specifically for energy transport -- stripped of the standalo
 
 Still unfavourable on a per-shipment basis, but the batteries are rechargeable. Over a 20-year service life with 33 round trips per year, each ship delivers about 10,900 GWh -- displacing roughly 2.2 million tonnes of diesel fuel.
 
-This is no longer hypothetical engineering. Japan's PowerX has built a 140-metre battery tanker carrying 241 MWh in containerised LFP batteries, with field testing commencing in 2026. It is modest in scale -- about one-quarter of our reference vessel's current-tech capacity -- but it validates the core concept: a purpose-built vessel that sails to a destination, plugs into the grid, and discharges stored electricity.
+This is no longer hypothetical engineering. Japan's PowerX built a 140-metre proof-of-concept battery tanker carrying 241 MWh in containerised LFP batteries -- modest in scale, about one-quarter of our reference vessel's current-tech capacity, but it validated the core concept. The commercial programme has since moved to Ocean Power Grid (OPG), a dedicated subsidiary established in February 2024, which has developed two purpose-built vessel classes: the Power Ark (90 m, 120 MWh, oceanic) for open-water routes, and the Power Barge (81 m, 240 MWh, towed, no propulsion) for sheltered seas. In July 2025, OPG launched a feasibility study to transport surplus hydroelectric power from Yakushima Island to diesel-dependent Tanegashima -- targeting commercial operations by ~2028. This would be the world's first commercial battery tanker service. OPG's Series A funding round (February 2026, ~¥1.1 billion) drew Japan's largest shipping company, two major regional utilities, and the Development Bank of Japan. The concept is real, the money is committed, and the first commercial route is being planned.
 
 ![Battery tankerments needed to match one diesel cargo -- current vs next-generation technology](images/04-battery-density-ratio.svg)
 
@@ -165,6 +165,8 @@ Consider a coastal battery vessel of 1,000-3,000 deadweight tonnes -- roughly th
 
 A single 2,000-tonne vessel carrying 710 MWh could replace the diesel consumption of a typical small island for an entire dry season. The ship arrives, connects to the island's local distribution grid, discharges over 24-48 hours, and departs. No fuel storage tanks. No fuel spills. No generator exhaust. No daily rumble of diesel engines.
 
+This is not speculation. Japan's Ocean Power Grid has already designed a vessel for exactly this role: the Power Barge, a 6,000 DWT towed barge carrying 240 MWh in 96 containerised LFP batteries, purpose-built for calm-water island-to-island routes. It has no propulsion of its own -- it is towed, like a fuel barge -- keeping construction and operating costs low. The engineering is real. The specifications are published. The first commercial deployment is planned for ~2028.
+
 ### The Hub-and-Spoke Model
 
 Here is the critical insight: battery tankers need not collect their charge from Australia. They could collect it from **cable hubs** -- larger islands that receive bulk power via submarine cable, large-scale PV farms, or geothermal plants, and redistribute it to surrounding smaller islands by sea.
@@ -180,6 +182,8 @@ This is the hub-and-spoke model, identical in architecture to the one used by ai
 ![Hub-and-spoke energy distribution network](images/05-hub-and-spoke.svg)
 
 The shipping infrastructure already exists. Indonesia has one of the world's largest inter-island fleets. The routes are established. The ports, however modest, are in place. The adaptation required is to add charging and discharging facilities at hub and destination ports -- not to build an entirely new transport network.
+
+This is not a concept unique to Indonesia. Japan -- another *tanah air* nation, an archipelagic state of 14,125 islands defined by its seas -- is building exactly this model. Ocean Power Grid's Yakushima pilot will transport surplus hydroelectric power to diesel-dependent neighbouring islands, using the same hub-and-spoke architecture proposed here: a renewable energy hub charges battery tankers, which shuttle stored electricity to surrounding islands within a few hundred kilometres. OPG's dual-vessel strategy -- the Power Ark for open-water crossings, the Power Barge for calm sheltered seas -- maps directly onto Indonesia's diverse maritime geography. What the Seto Inland Sea is to Japan, the Java Sea is to Indonesia. What the open Pacific approaches are to Kyushu, the Flores Sea and Makassar Strait are to eastern Indonesia. The engineering challenge is the same. The solution is converging.
 
 ---
 
@@ -278,7 +282,7 @@ The battery tanker concept rests on two technological developments. Both are cle
 
 **Battery cost below $50/kWh at the pack level.** BloombergNEF reported that stationary storage pack prices fell to $70/kWh in 2025 -- a 45 per cent drop in a single year -- with the lowest observed LFP pack price already at $50/kWh. Purpose-built transport packs, simpler than grid-installation packs, could reach $30-40/kWh by the early 2030s. The trajectory continues downward, driven by manufacturing scale, chemical innovation, and the same learning curves that reduced PV panel costs by 99 per cent between 1976 and 2024.
 
-The ships themselves require no breakthrough. They are conventional cargo vessels with electrical discharge infrastructure -- essentially a large shore-power connection and power management system. The naval architecture is simpler than an LNG carrier. And the concept is no longer purely theoretical: Japan's PowerX is field-testing a 241 MWh battery tanker in 2026, CATL expects ocean-going battery-electric vessels within three years, and over 1,000 ships worldwide now carry large battery systems for propulsion.
+The ships themselves require no breakthrough. They are conventional cargo vessels with electrical discharge infrastructure -- essentially a large shore-power connection and power management system. The naval architecture is simpler than an LNG carrier. And the concept is no longer purely theoretical: Japan's Ocean Power Grid, backed by Series A funding from major utilities, shipping companies, and the Development Bank of Japan, is targeting commercial battery tanker operations by ~2028, with its Yakushima-to-Tanegashima route as the inaugural service. CATL expects ocean-going battery-electric vessels within three years, and over 1,000 ships worldwide now carry large battery systems for propulsion.
 
 **Realistic timeline:**
 
@@ -362,7 +366,7 @@ For battery tankers -- and the broader renewable transformation they serve -- to
 
 **4. Invest in hub infrastructure.** Charging stations at hub islands -- 50-100 MW each at six to eight locations including Kupang, Ambon, Sorong, Manado, and Makassar -- are prerequisites for the early deployment phase. Indonesia's existing programme to develop renewable energy zones in these regions provides a ready-made vehicle.
 
-**5. Structure partnerships for capability transfer.** Every international partnership must include binding technology transfer and progressive local content requirements. Joint ventures, not turnkey contracts. The model is South Korea's shipbuilding industry, which began with Japanese blueprints and within two decades overtook Japan.
+**5. Structure partnerships for capability transfer.** Every international partnership must include binding technology transfer and progressive local content requirements. Joint ventures, not turnkey contracts. The model is South Korea's shipbuilding industry, which began with Japanese blueprints and within two decades overtook Japan. Ocean Power Grid's investor structure provides a template: a shipping company (NYK Line), regional utilities (Kyushu Electric, Chubu Electric), and a government development bank. Indonesia's equivalent -- Pelni or PELINDO, PLN, and a sovereign development vehicle -- is obvious. OPG would be a natural technology partner.
 
 **6. Mobilise patient capital.** The combined investment is capital-intensive upfront and cheap to operate thereafter -- the opposite of diesel. Sovereign wealth funds, development bank lending, green bonds, and the fiscal savings from reduced diesel subsidies (potentially $2-3 billion per year) can service the transition. Indonesia's Investment Authority (INA) and the Asian Development Bank are natural candidates.
 
@@ -378,13 +382,13 @@ That system has four layers: **Generate** the clean energy -- geothermal, roofto
 
 The Indonesian state currently spends about $5 billion per year subsidising electricity, with a substantial portion flowing directly to diesel generators on remote islands -- buying energy dependence, air pollution, fiscal fragility, and carbon emissions. The same money, redirected over a decade, could purchase something far more valuable: a self-sustaining energy system powered by resources that Indonesia owns, built by industries that Indonesia controls, and that will never run out.
 
-Indonesia built its identity on the sea. Its national motto, *Bhinneka Tunggal Ika* -- Unity in Diversity -- invokes the binding of thousands of islands into one nation. The ships that once carried spices and trade goods between these islands could, in the coming decades, carry something more fundamental: sunshine, stored in batteries, delivered to every shore.
+Indonesia built its identity on the sea. The country's name for homeland -- *tanah air*, land and water -- is a statement of geographical truth: this is a nation where the sea does not separate but connects. Its national motto, *Bhinneka Tunggal Ika* -- Unity in Diversity -- invokes the binding of thousands of islands into one nation. The ships that once carried spices and trade goods between these islands could, in the coming decades, carry something more fundamental: sunshine, stored in batteries, delivered to every shore. The battery tanker is the technology that finally treats the sea as what Indonesians have always known it to be -- not a barrier, but the connection.
 
-In Indonesian, *solar* means diesel. It does not have to. The technology, the economics, and the geography are converging to make the change possible. The question is not whether the sun will shine. It always has. The question is whether Indonesia will choose to give the word back to the sun.
+In Indonesian, *solar* means diesel. It does not have to. The technology, the economics, and the geography are converging to make the change possible. Japan, another *tanah air* nation, is already building the system. The question is not whether the sun will shine. It always has. The question is whether Indonesia will choose to give the word back to the sun.
 
 ---
 
-*This analysis draws on primary data from the International Energy Agency, BloombergNEF, CSIRO (Australia), NREL (United States), IRENA, Indonesia's Ministry of Energy and Mineral Resources, PLN financial disclosures, the World Bank, manufacturer specifications from Tesla, CATL, BYD, and PowerX, and maritime regulatory frameworks from the IMO, European Commission, and DNV. Detailed technical calculations are documented in the companion technical report, "Battery Tanker Energy Transport: Feasibility Study" (revised April 2026).*
+*This analysis draws on primary data from the International Energy Agency, BloombergNEF, CSIRO (Australia), NREL (United States), IRENA, Indonesia's Ministry of Energy and Mineral Resources, PLN financial disclosures, the World Bank, manufacturer specifications from Tesla, CATL, BYD, PowerX, and Ocean Power Grid, and maritime regulatory frameworks from the IMO, European Commission, and DNV. Detailed technical calculations are documented in the companion technical report, "Battery Tanker Energy Transport: Feasibility Study" (revised April 2026).*
 
 ---
 

@@ -214,12 +214,17 @@ OPG has developed two purpose-built vessel classes, both smaller and more practi
 
 | Parameter | Power Ark | Power Barge |
 |-----------|-----------|-------------|
-| Length | ~90 m | ~60 m |
-| Breadth | ~18 m | ~30 m |
-| Battery capacity | 120 MWh | 120 MWh |
-| Navigation range | Coastal, near-sea, oceanic | Inland waters |
+| Length | ~90 m | 81 m |
+| Breadth | ~18 m | 30 m |
+| DWT | — | 6,000 tonnes |
+| Battery capacity | 120 MWh | 240 MWh (96 × 20ft containerised LFP) |
+| Speed | — | 5-8 knots (towed, no propulsion) |
+| Protection rating | — | IP56 (IEC) |
+| Navigation range | Coastal, near-sea, oceanic | Calm seas (sig. wave height < 1.0 m) |
 
-The Power Ark is designed for inter-island and island-to-mainland routes in open water; the Power Barge targets sheltered harbour and inland waterway operations.
+*Note: Power Barge specs from Japanese engineering press release (April 2024) are more detailed than the international summary page. The Power Barge is a towed barge without its own propulsion, designed for sheltered waters such as Japan's Seto Inland Sea — analogous to Indonesia's Java Sea.*
+
+The Power Ark is designed for inter-island and island-to-mainland routes in open water; the Power Barge targets sheltered harbour and calm-sea operations at lower cost.
 
 **Yakushima pilot project (feasibility study launched July 2025):** OPG's inaugural deployment will transport surplus hydroelectric power from Yakushima Island — where rainfall and 2,000 m mountains provide enough hydropower to meet nearly all local demand — to neighbouring islands including Tanegashima, which currently rely on diesel generation. Partner: Yakushima Denko Co., Ltd. (hydro plant operator). Target: commercial operations by ~2028. This would be the world's first commercial battery tanker service.
 
@@ -236,6 +241,31 @@ The Power Ark is designed for inter-island and island-to-mainland routes in open
 OPG has also signed municipal partnership agreements with the City of Yokohama (shore power for cruise ships and port energy), the City of Muroran, and Tomakomai Port in Hokkaido.
 
 **Relevance to this study:** OPG validates the island-hopping battery tanker model at shorter range and smaller scale. Its architecture — containerised LFP batteries, port-side charging/discharge, flexible routing between islands — is directly analogous to the Australia-to-Indonesia long-haul concept examined here, differing primarily in distance and cargo capacity. If OPG's Yakushima service reaches commercial operation by 2028 as planned, it will provide the first real-world operational data for battery tanker economics, round-trip efficiency, and port integration — data that would substantially de-risk larger-scale deployments.
+
+### Archipelagic Validation: Japan and Indonesia
+
+Japan and Indonesia are both *tanah air* nations — archipelagic states where the sea is not a barrier but the connective tissue that defines the country. Indonesia's foundational concept of *tanah air* ("land and water") captures a geographical reality that Japan shares: thousands of inhabited islands connected by sea, many dependent on expensive diesel generation, where conventional grid infrastructure cannot reach. What OPG is building for Japan's 14,125 islands is structurally identical to what this study proposes for Indonesia's 17,500+.
+
+| Parameter | Japan | Indonesia |
+|-----------|-------|-----------|
+| Islands | 14,125 | 17,500+ (~6,000 inhabited) |
+| Separate grids | Multiple regional grids | ~900 grids (mostly diesel) |
+| Remote island generation | Diesel + limited renewables | Diesel (~2.6 GW across >5,200 plants) |
+| Remote island electricity cost | High (island surcharge) | $300-550/MWh |
+| Renewable surplus regions | Kyushu, Hokkaido (PV, wind, curtailment) | Geothermal belt, equatorial PV |
+| Hub-and-spoke model | OPG: hydro/wind hubs + battery tanker distribution | This study: cable/PV/geothermal hubs + battery tanker shuttle |
+| Pilot project | Yakushima hydro → Tanegashima (~2028) | Proposed: hub islands → NTT, Maluku, Papua |
+| Vessel strategy | Power Ark (oceanic) + Power Barge (sheltered) | Large tankers (inter-regional) + shuttle vessels (local) |
+
+The parallels extend beyond geography into operational detail:
+
+- **Dual-vessel strategy.** OPG's Power Ark (oceanic) and Power Barge (sheltered) map directly onto Indonesia's diverse maritime geography. Japan's Seto Inland Sea, where the Power Barge operates, is analogous to Indonesia's Java Sea — calm, shallow, connecting major population centres. The open-water Power Ark serves routes equivalent to Indonesia's Flores Sea, Banda Sea, or Makassar Strait crossings.
+
+- **Surplus-to-deficit transfer.** The Yakushima pilot — transporting surplus hydroelectric power to diesel-dependent Tanegashima — is structurally identical to the Indonesian proposal: surplus geothermal from Flores or surplus PV from Sumba redistributed to diesel-dependent neighbours in NTT and Maluku.
+
+- **Investor confidence.** OPG's Series A drew participation from Japan's largest shipping company (NYK Line), two major regional utilities (Kyushu Electric, Chubu Electric), and a government development bank — precisely the categories of investor an Indonesian programme would need (Pelni/PELINDO, PLN, and national development finance).
+
+- **Timeline.** OPG targets ~2028 commercial operations. This means operational data on battery tanker economics, round-trip efficiency, port integration logistics, and regulatory compliance will be available before any Indonesian deployment reaches construction phase — substantially de-risking the programme.
 
 **Other developments:**
 - **Fleetzero (US):** $43M Series A (January 2026), modular 3.8 MWh battery units at 25% the footprint of standard containers. Hybrid conversion vessel targeting mid-2026.
@@ -372,7 +402,7 @@ IRENA's 2024 data (published July 2025) reports a global weighted average LCOE o
 
 ### Concept
 
-Ships loaded with rechargeable battery packs are charged at a solar farm in the Pilbara, sail to Jakarta, plug into the city grid, discharge, then return for recharging — a continuous cycle replacing diesel tanker deliveries.
+Ships loaded with rechargeable battery packs are charged at a solar farm in the Pilbara, sail to Jakarta, plug into the city grid, discharge, then return for recharging — a continuous cycle replacing diesel tanker deliveries. Japan's Ocean Power Grid is validating this charge-transport-discharge cycle at shorter range: the Yakushima-to-Tanegashima route demonstrates the same operational model with hydroelectric surplus replacing solar, targeting commercial operations by ~2028 (see Section 3).
 
 ### Shipping Route: Port Hedland to Jakarta (Tanjung Priok)
 
@@ -888,6 +918,8 @@ The battery fleet concept occupies a specific niche where:
 2. **Flexibility matters** — ability to serve multiple destinations, reroute during disruption, or scale incrementally
 3. **Sovereignty concerns** prevent permanent foreign infrastructure in territorial waters
 4. **Battery costs fall below ~$30/kWh** (projected mid-2030s) while diesel prices and carbon costs rise
+
+This niche is no longer theoretical. Japan's Ocean Power Grid has raised Series A funding from major utilities (Kyushu Electric, Chubu Electric), Japan's largest shipping company (NYK Line), and the Development Bank of Japan — precisely the investor categories that validate commercial credibility. OPG's Yakushima pilot targets ~2028, meaning real-world operational data on battery tanker economics, efficiency, and port logistics will be available 2-3 years before any Indonesian programme could reach construction phase. The archipelagic parallel between Japan (14,125 islands) and Indonesia (17,500+ islands) is exact: both face the same diesel dependency on remote islands, the same curtailment of renewable surplus on major islands, and the same need for flexible maritime energy distribution that neither submarine cables nor conventional grid expansion can provide.
 
 ### Critical dependencies
 
