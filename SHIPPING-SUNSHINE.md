@@ -396,10 +396,8 @@ In Indonesian, *solar* means diesel. It does not have to. The technology, the ec
 
 ## About the Author
 
-**Gary Dean** was born and raised in Perth, Western Australia, and emigrated to Indonesia in 1996. He is an Indonesian citizen. He holds a Bachelor of Asian Studies from Murdoch University, Perth, with a specialisation in Indonesian studies, politics, and international relations -- a programme that included a year at Universitas Gadjah Mada in Yogyakarta.
+**Gary Dean** is an Indonesian citizen. He holds a Bachelor of Asian Studies from Murdoch University, Perth, with a specialisation in Indonesian studies, politics, and international relations -- a programme that included a year at Universitas Gadjah Mada in Yogyakarta.
 
-He is the founder and chairman of the [Okusi](https://okusiassociates.com/) group of companies, which provides corporate services to foreign companies investing in Indonesia, including company establishment, accounting and taxation, audit, and immigration formalities. He is also the founder of [Yayasan Teknologi Terbuka Indonesia](https://yatti.id/) (Indonesian Open Technology Foundation).
-
-Having lived and worked across the Indonesian archipelago for nearly thirty years, his perspective on Indonesian energy policy is shaped by direct experience of the country's infrastructure realities -- from the coal ports of Kalimantan to the diesel generators of eastern Indonesia -- and by an enduring conviction that the nation's geography, so often framed as a problem, is in fact its greatest asset.
+He is the founder and chairman of the [Okusi](https://okusiassociates.com/) group of companies, which provides corporate services to foreign companies investing in Indonesia, including company establishment, accounting and taxation, research and audit. He is also the founder of [Yayasan Teknologi Terbuka Indonesia](https://yatti.id/) (Indonesian Open Technology Foundation).
 
 Contact: [garydean.id](https://garydean.id)
